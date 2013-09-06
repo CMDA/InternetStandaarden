@@ -1,0 +1,50 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: 'Trocchi', serif;
+	background-color: #aaaaaa;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#wrapper {
+	width:80%;
+	margin:auto;
+}
+header {
+	padding-top:100px;
+	border-bottom:1px solid black;
+}
+nav ul {
+	list-style-type:none;
+}
+nav a {
+	display:block;
+	width:100px;
+}
+nav>ul>li {
+	display:inline;
+}
+nav>ul>li>a {
+	display:inline-block;
+	width:100px;
+	padding-bottom:20px;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	z-index: 99;
+}
+nav ul ul#sub2 {
+	margin-left:104px;
+}
+nav ul ul li a {
+	padding:0.2em 0;
+	background-color:#999999;
+}
+nav a:hover {
+	background-color:#bbbbbb;
+}

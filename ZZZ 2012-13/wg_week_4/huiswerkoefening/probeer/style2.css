@@ -1,0 +1,60 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: 'Trocchi', serif;
+	background-color: #aaaaaa;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#wrapper {
+	width:80%;
+	margin:auto;
+}
+header {
+	height:20px;
+	padding-top:100px;
+	border-bottom:1px solid black;
+	padding-bottom:20px;
+}
+nav {
+	float:right;
+}
+nav ul {
+	list-style:none;
+}
+nav a {
+	display:block;
+	width:100px;
+}
+nav>ul>li {
+	display:inline;
+}
+nav>ul>li>a {
+	display:inline-block;
+	width:100px;
+	padding-bottom:20px;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	z-index: 99;
+}
+nav ul ul#sub2 {
+	margin-left:104px;
+}
+nav ul ul li a {
+	padding:0.2em 0;
+	background-color:#999999;
+}
+nav a:hover {
+	background-color:#bbbbbb;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#bbbbbb), to(#999999));
+	background-image: -webkit-linear-gradient(top, #bbbbbb, #999999);
+	background-image:    -moz-linear-gradient(top, #bbbbbb, #999999);
+	background-image:      -o-linear-gradient(top, #bbbbbb, #999999);
+	background-image:         linear-gradient(to bottom, #bbbbbb, #999999);
+}

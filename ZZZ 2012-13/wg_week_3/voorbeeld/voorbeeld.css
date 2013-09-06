@@ -1,0 +1,92 @@
+/* Copyleft 2012, all wrongs reversed */
+
+/* Dit geldt voor alle elementen, zoek op YUI reset.css voor een gehele reset! */
+*, html {
+	margin:0px; padding: 0px; border: 0px;
+}
+
+div#wrapper {
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	/* 'Seamless patterns' repeat-x / y of no-repeat */
+	background: url(bg.jpeg) top left repeat; 
+	border-left: 1em #c2c2c2 solid;
+	border-right: 1em #c2c2c2 solid;
+	font-family: Garamond, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT sans', sans-serif;
+}
+
+header h1 {
+	font-size: 2em;
+	line-height: 4em;
+	margin-left: 1em;
+}
+
+nav ul {
+	list-style: none;
+	height: 3em;
+	margin-left: 1.5em;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	display: block;
+	float: left;
+	background: #c2c2c2;
+	width: 8em;
+	height: 3em;
+	margin-left: 1em;
+	text-align: center;
+	line-height: 3em;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #000000;
+}
+nav ul li a:hover {
+	background: orange;
+}
+
+article {
+	padding: 1em;
+}
+
+article h1 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+article blockquote {
+	margin-left: 3em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+article blockquote cite {
+	color: #c2c2c2;
+}
+article p+p {
+
+}
+article p:first-letter {
+	font-weight: bold;
+	color: tomato;
+}
+article p {
+	width: 17em;
+	float: left;
+	line-height: 1.5em;
+	text-align: justify;
+	padding: 1em;
+}
+
+footer {
+	padding-bottom: 3em;
+	padding-left: 1em;
+}
+

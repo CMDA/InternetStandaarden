@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+div#wrapper {
+	border:1px solid black;
+	width:800px;
+	padding:10px;
+	margin:auto;
+}
+header {
+	float:left;
+	border:1px solid red;
+	width:196px;
+	height:100px;
+	margin-right:10px;
+	padding:10px;
+}
+nav {
+	float:right;
+	border:1px solid green;
+	width:550px;
+	height:100px;
+	margin-bottom:10px;
+	padding:10px;
+}
+article {
+	clear:both;
+	border:1px solid blue;
+	margin-bottom:10px;
+	padding:10px;
+}
+footer {
+	border:1px solid red;
+	padding:10px;
+	text-align:center;
+}
+ul {
+	list-style:none;
+}

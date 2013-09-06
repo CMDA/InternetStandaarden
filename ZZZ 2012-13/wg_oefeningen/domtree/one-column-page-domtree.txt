@@ -1,0 +1,19 @@
+HTML
+|___HEAD
+|	  |___TITLE
+|___BODY
+	  |___DIV#WRAPPER
+		   |   |___HEADER
+		   |   |	 |___IMG
+		   |   |___NAV
+		   |		|___UL
+		   |			 |___IL
+		   |				  |___A
+		   |___ARTICLE
+		   |	  |___H1
+		   |	  |___H2
+		   |	  |___P
+		   |	  |___H2
+		   |	  |___P
+		   |___FOOTER
+			      |___EM

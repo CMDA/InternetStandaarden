@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Test presenteren met impress.js (credits to Bartek Szopka  - http://bartaz.github.com/impress.js/#/bored )</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Sonja Rouwhorst" />
+    <link href="static/css/style.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+<!--
+    This fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<section class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</section>
+
+<!-- the parametere data-transition-duration sets the number of miliseconds for a transition -->
+<section id="impress" data-transition-duration="1000">
+    <!--
+        
+        All the possible attributes used to position presentation steps, are:
+        
+        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+            the canvas in pixels; their default value is 0;
+        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+            are exactly the same;
+        * `data-scale` - defines the scale of step element; default value is 1
+        
+        These values are used by impress.js in CSS transformation functions, so for more information consult
+        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        
+    -->
+
+<!-- INTRO -->
+
+    <section id="first" class="step slide darkHTML" data-x="-2200" data-y="-2200" data-rotate="20">
+        <h1>Internetstandaarden</h1>
+        <h2>Hoorcollege Blokweek 2</h2>
+        <iframe width="800" height="600" src="https://developer.mozilla.org/media/uploads/demos/M/i/Mircea%20Piturca/2bb5c1d8974e5f4a3ae1b3b16e5425be/css-tricks_1309212661_demo_package/index.html" ></iframe>
+    </section>
+
+    <section id="weekoverzicht" class="step slide" data-x="-1100" data-y="-2200">
+        <h1>Weekoverzicht Internetstandaarden</h1>
+        <table class="verticalLines">
+            <thead>
+                <tr><th>&nbsp;</th><th>HC</th><th>WG</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Blokweek 1</th>
+                    <td class="lessImportant">CMD AAN!</td>
+                    <td class="lessImportant">CMD AAN!</td>
+                </tr>
+                <!-- Zoom in op deze rij -->
+                <tr class="zoom">
+                    <th>Blokweek 2</th>
+                    <td>DE ZOEKTOCHT NAAR BETEKENIS - Semantiek<br />
+                        HOE MAAK JE HTML OP - Praktisch<br />
+                        DAT IS DOM! - HTML basis</td>
+                    <td>Drieluik oefening analyse<br />
+                        Tools<br />
+                        Eerste website maken<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 3</th>
+                    <td>ALGEMEEN BESCHAAFD HTML - Syntax vs. semantiek<br />
+                        FUT (Frequently Used Tags) - Content structuur aangeven<br />
+                        A BOX IN A BOX IN A BOX ... - Block vs. inline vs. invisible<br />
+                        DON'T BELIEVE THE HYPE - nieuwe html5 elementen<br />
+                    </td>
+                    <td>Criteria vaststellen met klas<br />
+                        Huiswerk bespreken<br />
+                        Onderzoek menustijlen<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 4</th>
+                    <td>DIVIDE ET IMPERA – Scheiding vormgeving, inhoud en gedrag<br />
+                        HOE PAS JE CSS TOE - Praktisch<br />
+                        SELECTA – Hoe selecteer je elementen<br />
+                        MOOIE DINGEN MAKEN - Over kleur en typografie 
+                    </td>
+                    <td>Wireframes schetsen<br />
+                        HTML template maken<br />
+                        Demo one-column en two-column layout<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 5</th>
+                    <td>LoVe HAte YOUR LINKS - Pseudo classes<br />
+                        DE LEEGTE IS JE VRIEND - Box model<br />
+                        LEG HET NEER - layout
+                    </td>
+                    <td>Presentaties html templates<br />
+                        Vlakverdeling oefening<br />
+                        Grove vlakverdeling met CSS<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 6</th>
+                    <td>IMAGINE THAT! – invoegen van afbeeldingen<br />
+                        UPLOAD – Publiceren van jouw website<br />
+                        CSS3 FROM HELL – the perks and the prefix hell of CSS3<br />
+                        GOED GEDRAG WORDT BELOOND - Javascript intro
+                    </td>
+                    <td>CSS oog voor detail<br />
+                        jQuery<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 7</th>
+                    <td>OVER HET SNEL DOCH SLORDIG INZETTEN VAN JAVASCRIPT - JQuery<br />
+                        MANIPULEER JE DOM - Luisteren naar en inspelen op gebeurtenissen<br />
+                    </td>
+                    <td>Werken aan eindopdracht
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 8</th>
+                    <td class="lessImportant">Herfstreces</td>
+                    <td class="lessImportant">Herfstreces</td>
+                </tr>
+                <tr>
+                    <th>Blokweek 9</th>
+                    <td>SYMPOSIUM: STUDENTEN PRESENTEREN<br />
+                        VOORBEREIDING OP TENTAMEN<br />
+                        VEELGESTELDE VRAGEN OVER WEBSITE<br />
+                    </td>
+                    <td><strong>Verplichte werkgroep!</strong><br />
+                        Elkaars website beoordelen.
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 10</th>
+                    <td><strong>Toetsweek</strong></td>
+                    <td class="lessImportant">Toetsweek - geen lessen</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="iets" class="step slide lightHTML" data-x="0" data-y="-2200">
+        <h1>Een kop</h1>
+        <h2>Subkop</h2>
+        <p class="fullscreen">Dit is een heel interessante regel tekst.</p>
+    </section>
+
+    <section id="ietsAnimerends" class="step slide lightHTML" data-x="1100" data-y="-2200">
+        <h1>Een kop</h1>
+        <h2>Subkop</h2>
+        <p class="fullscreen">En nog zoiets leuks. Met een <br /><strong id="zoom">animatietje</strong> waarin wat <strong id="up">gebeurt</strong></p>
+    </section>
+
+    <section id="overview" class="step" data-x="0" data-y="0" data-scale="8">
+    </section>
+
+<!-- ONDERWERP 1 -->
+
+    <section id="onderwerp1" class="step slide darkHTML" data-x="-2200" data-y="-1100">
+        <h1>Onderwerp 1</h1>
+        <h2>Subkop</h2>
+        <p><img src="media/images/interesting.jpg" alt="interesting" /></p>
+    </section>
+
+    <section class="step slide lightHTML" data-x="-2200" data-y="-300">
+        <h1>bla</h1>
+        <h2>jdslf</h2>
+        <ul>
+            <li>Begin maar</li>
+            <li>En nog een</li>
+            <li>We blijven gaan</li>
+            <li>Tja zo kan'ie wel weer</li>
+        </ul>
+    </section>
+
+    <section class="step slide" data-x="-2200" data-y="500">
+        <img src="media/images/img1.jpg" alt="" />
+    </section>
+
+    <section class="step slide lightHTML" data-x="-2200" data-y="1300">
+        <h1>bla</h1>
+        <h2>jdslf</h2>
+        <p class="fullscreen">jfdsl jflsjfkldsi fdsafj dsijewrkdverk i jerwo jtroi</p>
+    </section>
+
+<!-- ONDERWERP 2 -->
+
+    <section id="onderwerp2" class="step slide darkHTML" data-x="-800" data-y="-1100">
+        <h1>Onderwerp 2</h1>
+        <h2>Subkop</h2>
+        <p class="fullscreen">dfjkldsfjlasfjdkl j jlkfdsjlkero nlifjiljdsfl jlf</p>
+    </section>
+
+    <section class="step slide" data-x="-800" data-y="-300">
+        <img src="media/images/img2.jpg" alt="" />
+    </section>
+
+    <section class="step slide lightHTML" data-x="-800" data-y="500">
+        <h1>bla</h1>
+        <h2>jdslf</h2>
+        <p class="fullscreen">jfdsl jflsjfkldsi fdsafj dsijewrkdverk i jerwo jtroi</p>
+    </section>
+
+<!-- ONDERWERP 3 -->
+
+    <section id="onderwerp3" class="step slide darkHTML" data-x="600" data-y="-1100">
+        <h1>Onderwerp 3</h1>
+        <h2>Subkop</h2>
+        <p class="fullscreen">Laatste onderwerp pfoeh...</p>
+    </section>
+
+    <section class="step slide" data-x="600" data-y="-300">
+        <img src="media/images/img3.jpg" alt="" />
+    </section>
+
+    <section class="step slide lightHTML" data-x="600" data-y="500">
+        <img src="media/images/img4.jpg" alt="" />
+    </section>
+
+<!-- SAMENVATTING EN HUISWERK -->
+
+    <section class="step slide summaryHTML" data-rotate="90" data-x="2000" data-y="500">
+        <h1>Samenvatting</h1>
+        <ul>
+            <li>kfdslj</li>
+            <li>jsfdkl</li>
+        </ul>
+    </section>
+
+    <section class="step slide darkNeutral" data-rotate="90" data-x="2000" data-y="1600">
+        <h1>Huiswerk</h1>
+        <p class="fullscreen">Lezen hoofdstuk 8 t/m 10</p>
+    </section>
+
+</section>
+
+<!-- DIT AANZETTEN ALS VOOR STUDENTEN ONLINE KOMT
+<section class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</section>
+-->
+
+<!-- Impress is gemaakt door Bartek Szopka  - http://bartaz.github.com/impress.js/#/bored  -->
+<script type="text/javascript" src="static/js/impress.js"></script>
+<script>impress().init();</script>
+<script type="text/javascript" src="static/js/cmdfuncties.js"></script>
+
+</body>
+</html>

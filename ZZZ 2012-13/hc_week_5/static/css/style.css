@@ -1,0 +1,536 @@
+/* *************************
+ * GENERAL STUFF
+ ***************************/
+ /* a little resetting of the browswer stylesheet */
+* {
+    margin:0;
+    padding:0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    min-height: 740px;
+    background-color: rgb(55,49,49);
+    font-family: 'HelveticaNeue-Bold', helvetica, sans-serif;
+    font-size: 22px;
+}
+strong {
+    text-transform: uppercase;
+}
+
+h1,h2,h3 {
+    color:inherit;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+}
+h1 {
+    text-align: right;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 40px 60px 20px 20px;
+}
+h2 {
+    text-align: right;
+    font-size:28px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+h3 {
+    margin-left: 40px;
+    font-size:24px;
+}
+a {
+    text-decoration: none;
+    color:rgb(0,160,254);
+}
+a:hover, a:focus {
+    color:rgb(0,130,224);
+}
+ul, ol {
+    margin: 40px 40px 40px 80px;
+    font-size:48px;
+}
+p {
+    margin: 0px 40px;
+ }
+.fullscreen {
+    margin-top:250px;
+    font-size:48px;
+}    
+.html {
+    color:rgb(0,160,254);
+    font-family:courier, monospace;
+}
+.css {
+    color:rgb(244,74,123);
+    font-family:courier, monospace;
+}
+.lessImportant {
+    color:rgb(120,120,120);
+    font-style:italic;
+}
+/*******************************
+ * FALLBACK MESSAGE
+  ******************************/
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+    
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+/***************************************
+ * SLIDE
+ ***************************************/
+.slide {
+    display: block;
+    width: 1024px;
+    height: 768px;
+    background-color: rgb(208,203,199);
+    color: rgb(120,120,120);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.lightJS {
+    background-repeat: no-repeat;
+    background-image: url(../images/lightJS.jpg);
+}
+.lightHTML {
+    background-repeat: no-repeat;
+    background-image: url(../images/lightHTML.jpg);
+}
+.lightCSS {
+    background-repeat: no-repeat;
+    background-image: url(../images/lightCSS.jpg);
+}
+.darkJS {
+    color: white;
+    background-color: rgb(85,79,79);
+    background-repeat: no-repeat;
+    background-image: url(../images/darkJS.jpg);
+}
+.darkNeutral {
+    color: white;
+    background-color: rgb(85,79,79);
+    background-repeat: no-repeat;
+    background-image: url(../images/darkNeutral.jpg);
+}
+.darkHTML {
+    color: white;
+    background-color: rgb(85,79,79);
+    background-repeat: no-repeat;
+    background-image: url(../images/darkHTML.jpg);
+}
+.darkCSS {
+    color: white;
+    background-color: rgb(85,79,79);
+    background-repeat: no-repeat;
+    background-image: url(../images/darkCSS.jpg);
+}
+.summaryHTML {
+    background-color: rgb(0,160,254);
+    color:white;
+}
+.summaryCSS {
+    background-color: rgb(244,74,123);
+    color:white;
+}
+
+
+/******************************
+ * STEPS
+ ******************************/
+
+.step {
+    position: relative;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.impress-enabled .step {
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { 
+    opacity: 1 
+}
+
+
+/*************************************
+  * UNIQUE STEPS
+  ************************************/
+
+#first {
+    background: transparent;
+    border: 1px solid rgb(208,203,199);
+}
+#first img {
+    position:absolute;
+    top:0px; left: 0px;
+}
+#agenda ul {
+    list-style: none;
+}
+#agenda ul li {
+    margin-bottom: .5em;
+}
+
+#quiztime {
+    color:white;
+}
+#quiztime p{
+    text-align: center;
+    font-size: 140px;    
+}
+#vraag1, #vraag2, #vraag3, #vraag4, #vraag5, #vraag6, #vraag7, #vraag8, #antwoorden {
+    color:white;
+}
+#vraag1 ol, #vraag2 ol, #vraag3 ol, #vraag4 ol, #vraag5 ol, #vraag6 ol, #vraag7 ol, #vraag8 ol, #antwoorden ol {
+    font-size:30px;
+}
+#vraag1 p, #vraag2 p, #vraag3 p, #vraag4 p, #vraag5 p, #vraag6 p, #vraag7 p, #vraag8 p, #antwoorden p {
+    font-size:30px;
+}
+#antwoorden p{
+    width:50%;
+    float:right;
+}
+
+#upload h1, #upload3 h1, #imagine h1, #gedrag h1, #css3 h1 {
+    text-align: center;
+    font-size: 140px;
+    color: #ffffff;
+}
+#upload4 ul, #upload5 ul {
+    font-size:30px;
+}
+
+#achtergrond {
+    width:2160px;
+    height:468px;
+    background-image:url("../../media/images/sprite.png");
+}
+#rand {
+    top:0px;
+    position:absolute;
+    width:174px;
+    height:174px;
+    border:3px solid red;
+}
+#sprite.present #achtergrond{
+     -webkit-transform: translateY(-234px);
+    -moz-transform:    translateY(-234px);
+    -ms-transform:     translateY(-234px);
+    -o-transform:      translateY(-234px);
+    transform:         translateY(-234px);
+
+    -webkit-transition: 1s;
+    -moz-transition:    1s;
+    -ms-transition:     1s;
+    -o-transition:      1s;
+    transition:         1s;
+
+    -webkit-transition-delay: 10s;
+    -moz-transition-delay:    10s;
+    -ms-transition-delay:     10s;
+    -o-transition-delay:      10s;
+    transition-delay:         10s;
+}
+
+#gedrag2 h1{
+    text-align: center;
+    color:white;
+}
+
+#pseudo-classes h1,
+#layout h1{
+    text-align: center;
+    font-size: 140px;
+    color: #ffffff;
+}
+#boxmodel h1 {
+    text-align:right;
+    font-size: 20px;
+    color:white;
+}
+#sixpack {
+    width: 1024px;
+    height: 768px;
+    background: url(../../media/images/wolverine.jpeg);
+}
+
+#sixpack ul {
+    list-style: none;
+    margin: 0px;
+    margin-top: 550px;
+    width: 500px;
+    float: left;
+}
+
+#sixpack ul#threesome {
+    text-align: right;
+}
+
+#sixpack li {
+    padding-left: .3em;
+    padding-right: .3em;
+}
+
+#paragraphs {
+    color:white;
+}
+#paragraphs ul {
+    float:right;
+}
+#paragraphs div {
+    font-size: 60px;
+}
+#paragraphs div#p1 {
+    position:absolute; top: 50px; left: 200px;
+}
+#paragraphs div#p2 {
+    position:absolute; top: 70px; left: 250px;
+}
+#paragraphs div#p3 {
+    position:absolute; top: 150px; left: 400px;
+}
+#paragraphs div#p4 {
+    position:absolute; top: 200px; left: 130px;
+}
+#paragraphs div#p5 {
+    position:absolute; top: 300px; left: 300px;
+}
+#paragraphs div#p6 {
+    position:absolute; top: 350px; left: 270px;
+}
+
+#tekenboxmodel {
+    border-radius: 10px;
+    background-color:white;
+    display: block;
+    width: 1024px;
+    height: 768px;
+}
+/* CF7 code bron: http://css3.bradshawenterprises.com/cfimg/ */
+p#cf7_controls {
+    font-size: 18px;
+  text-align:center;
+}
+#cf7_controls span {
+  padding-right:2em;
+  cursor:pointer;
+}
+#cf7 {
+}
+#cf7 img {
+  position:absolute;
+  top: 200px;
+  left: 50px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7 img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+
+#layoutprogramma {
+    color:white;
+}
+
+#studievragen ol {
+    font-size: 36px;
+}
+
+.impress-on-overview .step {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*********************
+ *  TABLES
+ *********************/
+table {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right:auto;
+}
+th {
+    vertical-align: top;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color:rgb(80,80,80);
+    font-size: 14px;
+    border-bottom:1px solid rgb(120,120,120);
+}
+td {
+    color:rgb(80,80,80);
+    font-size:11px;
+    padding:10px;
+    border-bottom:1px dotted rgb(120,120,120);
+    vertical-align: top;
+}
+.verticalLines th {
+    text-align: center;
+    vertical-align: middle;
+    border:0;
+    background-color: rgb(208,203,199);
+}
+.verticalLines td {
+    padding:10px;
+    width:300px;
+    vertical-align: middle;
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.verticalLines td:nth-child(even) {
+    background-color: rgb(244,74,123);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(244,74,123)), to(rgb(255,94,143)));
+    background-image: -webkit-linear-gradient(top, rgb(244,74,123), rgb(255,94,143));
+    background-image:    -moz-linear-gradient(top, rgb(244,74,123), rgb(255,94,143));
+    background-image:      -o-linear-gradient(top, rgb(244,74,123), rgb(255,94,143));
+    background-image:         linear-gradient(to bottom, rgb(244,74,123), rgb(255,94,143));
+}
+.verticalLines td:nth-child(odd) {
+    background-color: rgb(0,206,254);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0,206,254)), to(rgb(20,226,255)));
+    background-image: -webkit-linear-gradient(top, rgb(0,206,254), rgb(20,226,255));
+    background-image:    -moz-linear-gradient(top, rgb(0,206,254), rgb(20,226,255));
+    background-image:      -o-linear-gradient(top, rgb(0,206,254), rgb(20,226,255));
+    background-image:         linear-gradient(to bottom, rgb(0,206,254), rgb(20,226,255));
+}
+.verticalLines td:nth-child(odd).lessImportant, .verticalLines td:nth-child(even).lessImportant {
+    background-color: rgb(178,173,169);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(178,173,169)), to(rgb(198,193,189)));
+    background-image: -webkit-linear-gradient(top, rgb(178,173,169), rgb(198,193,189));
+    background-image:    -moz-linear-gradient(top, rgb(178,173,169), rgb(198,193,189));
+    background-image:      -o-linear-gradient(top, rgb(178,173,169), rgb(198,193,189));
+    background-image:         linear-gradient(to bottom, rgb(178,173,169), rgb(198,193,189));
+}
+
+/*********************************
+ * HINT
+ *********************************/
+.hint {
+    /*
+        We hide the hint until presentation is started and from browsers not supporting
+        impress.js, as they will have a linear scrollable view ...
+    */
+    display: none;
+    
+    /*
+        ... and give it some fixed position and nice styles.
+    */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    
+    background: rgba(0,0,0,0.5);
+    color: #EEE;
+    text-align: center;
+    
+    font-size: 50px;
+    padding: 20px;
+    
+    z-index: 100;
+    
+    /*
+        By default we don't want the hint to be visible, so we make it transparent ...
+    */
+    opacity: 0;
+    
+    /*
+        ... and position it below the bottom of the screen (relative to it's fixed position)
+    */
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+
+    /*
+        Now let's imagine that the hint is visible and we want to fade it out and move out
+        of the screen.
+        
+        So we define the transition on the opacity property with 1s duration and another
+        transition on transform property delayed by 1s so it will happen after the fade out
+        on opacity finished.
+        
+        This way user will not see the hint moving down.
+    */
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+
+/*
+    Now we 'enable' the hint when presentation is initialized ...
+*/
+.impress-enabled .hint { display: block }
+
+/*
+    ... and we will show it when the first step (with id 'first') is active.
+*/
+.impress-on-first .hint {
+    /*
+        We remove the transparency and position the hint in its default fixed
+        position.
+    */
+    opacity: 1;
+    
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+    
+    /*
+        Now for fade in transition we have the oposite situation from the one
+        above.
+        
+        First after 4.5s delay we animate the transform property to move the hint
+        into its correct position and after that we fade it in with opacity 
+        transition.
+    */
+    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
+    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
+    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+}
+

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Internet Standaarden - HC 3</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Justus Sturkenboom" />
+    <link href="static/css/style.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+<!--
+    This fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<section class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</section>
+
+<!-- the parametere data-transition-duration sets the number of miliseconds for a transition -->
+<section id="impress" data-transition-duration="1000">
+    <!-- All the possible attributes used to position presentation steps, are:
+    * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on the canvas in pixels; their default value is 0;
+    * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z` are exactly the same;
+    * `data-scale` - defines the scale of step element; default value is 1
+    -->
+
+<!-- INTRO -->
+<!-- http://youtu.be/3iVVM_DgWY4?hd=1 -->
+
+    <section id="first" class="step slide darkHTML" data-x="0" data-y="-1000" data-z="10000">
+        <h1>Internetstandaarden</h1>
+        <h2>Hoorcollege Blokweek 3</h2>
+        <img src="static/images/transparentCSS.png" alt="" />
+    </section>
+
+    <section id="weekoverzicht" class="step slide" data-x="-512" data-y="-384">
+        <table class="verticalLines">
+            <thead>
+                <tr><th>&nbsp;</th><th>HC</th><th>WG</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Blokweek 1</th>
+                    <td class="lessImportant">CMD AAN!</td>
+                    <td class="lessImportant">CMD AAN!</td>
+                </tr>
+                <!-- Zoom in op deze rij -->
+                <tr>
+                    <th>Blokweek 2</th>
+                    <td>DE ZOEKTOCHT NAAR BETEKENIS - Semantiek<br />
+                        HOE MAAK JE HTML OP - Praktisch<br />
+                        DAT IS DOM! - HTML basis</td>
+                    <td>Drieluik oefening analyse<br />
+                        Tools<br />
+                        Eerste website maken<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 3</th>
+                    <td>ALGEMEEN BESCHAAFD HTML - Syntax vs. semantiek<br />
+                        FUT (Frequently Used Tags) - Content structuur aangeven<br />
+                        A BOX IN A BOX IN A BOX ... - Block vs. inline vs. invisible<br />
+                        DON'T BELIEVE THE HYPE - nieuwe html5 elementen<br />
+                    </td>
+                    <td>Criteria vaststellen met klas<br />
+                        Huiswerk bespreken<br />
+                        Onderzoek menustijlen<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 4</th>
+                    <td>DIVIDE ET IMPERA – Scheiding vormgeving, inhoud en gedrag<br />
+                        HOE PAS JE CSS TOE - Praktisch<br />
+                        SELECTA – Hoe selecteer je elementen<br />
+                        MOOIE DINGEN MAKEN - Over kleur en typografie 
+                    </td>
+                    <td>Wireframes schetsen<br />
+                        HTML template maken<br />
+                        Demo one-column en two-column layout<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 5</th>
+                    <td>LoVe HAte YOUR LINKS - Pseudo classes<br />
+                        DE LEEGTE IS JE VRIEND - Box model<br />
+                        LEG HET NEER - layout
+                    </td>
+                    <td>Presentaties html templates<br />
+                        Vlakverdeling oefening<br />
+                        Grove vlakverdeling met CSS<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 6</th>
+                    <td>IMAGINE THAT! – invoegen van afbeeldingen<br />
+                        UPLOAD – Publiceren van jouw website<br />
+                        CSS3 FROM HELL – the perks and the prefix hell of CSS3<br />
+                        GOED GEDRAG WORDT BELOOND - Javascript intro
+                    </td>
+                    <td>CSS oog voor detail<br />
+                        jQuery<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 7</th>
+                    <td>OVER HET SNEL DOCH SLORDIG INZETTEN VAN JAVASCRIPT - JQuery<br />
+                        MANIPULEER JE DOM - Luisteren naar en inspelen op gebeurtenissen<br />
+                    </td>
+                    <td>Werken aan eindopdracht
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 8</th>
+                    <td class="lessImportant">Herfstreces</td>
+                    <td class="lessImportant">Herfstreces</td>
+                </tr>
+                <tr>
+                    <th>Blokweek 9</th>
+                    <td>SYMPOSIUM: STUDENTEN PRESENTEREN<br />
+                        VOORBEREIDING OP TENTAMEN<br />
+                        VEELGESTELDE VRAGEN OVER WEBSITE<br />
+                    </td>
+                    <td><strong>Verplichte werkgroep!</strong><br />
+                        Elkaars website beoordelen.
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 10</th>
+                    <td><strong>Toetsweek</strong></td>
+                    <td class="lessImportant">Toetsweek - geen lessen</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="agenda" class="step slide" data-x="512" data-y="-384">
+        <h1>Agenda</h1>
+        <ul>
+            <li><strong>Divide et impera</strong><br />over scheiding van vormgeving, inhoud en functionaliteit</li>
+            <li><strong>Hoe pas je CSS toe</strong><br />over de koppeling van CSS aan HTML</li>
+            <li><strong>Selecta</strong><br />over selectie van DOM objecten</li>
+            <li><strong>Mooie dingen maken</strong><br />over kleur en typografie</li>
+        </ul>
+    </section>
+
+    <section id="terugblik" class="step slide" data-x="-512" data-y="400">
+        <h1>Terugblik</h1>
+        <ul>
+            <li>Semantiek, 3x woordwaarde</li>
+            <li>Anatomie van HTML elementen</li>
+            <li>Nesten in de DOM tree</li>
+            <li>Valideren van code (syntax)</li>
+            <li>Veel gebruikte HTML tags</li>
+        </ul>
+    </section>
+
+    <section id="addsomestyle" class="step slide" data-x="512" data-y="400">
+        <h1>Let's add some style</h1>
+        <img src="media/images/styleCat.gif" alt="Add some style" />
+    </section>
+
+<!-- PRAKTISCH -->
+
+    <section id="howto" class="step" data-x="0" data-y="1400">
+        <h1>CSS Howto</h1>
+    </section>
+
+    <section id="implementingcss" class="step" data-x="-300" data-y="1800">
+        <ul>
+            <li>Inline</li>
+            <li>Intern</li>
+            <li>Extern</li>
+        </ul>
+    </section>
+
+    <section id="source" class="step" data-x="200" data-y="1800">
+        <a href="voorbeeld.html" target="_blank">Use the force, read the source</a>
+    </section>
+
+    <section id="validation" class="step"  data-x="0" data-y="2200">
+        <a href="http://jigsaw.w3.org/css-validator/" target="_blank">w3 css validatie</a>
+    </section>
+
+    <section id="fps" class="step" data-x="0" data-y="2400" data-rotate-x="-90">
+        <h1>Rendering engines</h1>
+        <img src="media/images/mw2airport.jpeg" alt="MW2 Airport" />
+        <ul>
+            <li>Gecko</li>
+            <li>Presto</li>
+            <li>Trident</li>
+            <li>Webkit</li>
+        </ul>
+    </section>
+
+<!-- DIVIDE ET IMPERA -->
+
+    <section id="divide" class="step" data-x="-3200" data-y="0" data-rotate-z="-90">
+        <h1>Divide et impera</h1>
+    </section>
+
+    <section id="nutshell" class="step" data-x="-2600" data-y="-1000">
+        <a href="http://web.archive.org/web/19990225093559/http://www4.intel.com/" target="_blank">
+        <img src="media/images/nutshell.png" alt="Scheiding van inhoud, vormgeving en functionaliteit in een notedop" />
+        </a>
+    </section>    
+
+    <section id="voordelen" class="step" data-x="-2600" data-y="0">
+        <ul>
+            <li>Consistentie</li>
+            <li>Indexeerbaarheid</li>
+            <li>Onderhoudbaarheid</li>
+            <li>Overdraagbaarheid</li>
+            <li>Toegankelijkheid</li>
+        </ul>
+    </section>
+
+    <section id="media" class="step" data-x="-2000" data-y="0" data-rotate-z="90">
+        <a href="http://www.w3.org/TR/CSS2/media.html#media-types" target="_blank">Recognized Media Types</a>
+    </section>
+
+    <section id="allscreens" class="step" data-x="-2500" data-y="1000">
+        <img src="media/images/allScreens.png" alt="Allemaal schermen" />
+    </section>
+    <!-- http://www.hackingalert.net/2011/09/great-browser-war-unleashed-2011.html -->
+
+<!-- SELECTA -->
+
+    <section id="selecta" class="step" data-x="0" data-y="-2700">
+        <h1>Selecta</h1>
+    </section>
+
+    <section id="sixpack" class="step" data-x="0" data-y="-1900">
+        <ul id="threesome">
+            <li>tag-type</li>
+            <li>class</li>
+            <li>meerdere</li>
+        </ul>
+        <ul>    
+            <li>id</li>
+            <li>pseudo-class</li>
+            <li>descendant</li>
+        </ul>
+    </section>
+
+    <section id="rendering" class="step" data-x="0" data-y="-1400">
+        <img src="media/images/domrendering.png" alt="">
+    </section>
+
+<!-- MOOIE DINGEN MAKEN -->
+
+    <section id="mooi" class="step" data-x="3000" data-y="0" data-rotate-z="90">
+        <h1>Mooie dingen maken</h1>
+    </section>
+
+    <section id="hex" class="step" data-x="2000" data-y="0">
+        <ul>
+            <li>hexadecimaal</li>
+            <li style="color: #ffffff; background: #000000;"># 00 00 00</li>
+            <li style="color: #000000; background: #ffffff;"># ff ff ff</li>
+            <li style="color: #ffffff; background: #ff0000;"># ff 00 00</li>
+            <li style="color: #ffffff; background: #00ff00;"># 00 ff 00</li>
+            <li style="color: #ffffff; background: #0000ff;"># 00 00 ff</li>
+            <li style="color: #ffffff; background: #c2c2c2;"># c2 c2 c2</li>
+        </ul>
+        <ul>
+            <li>rgb</li>
+            <li style="color: #ffffff; background: #000000;">rgb(0,0,0)</li>
+            <li style="color: #000000; background: #ffffff;">rgb(255,255,255)</li>
+            <li style="color: #ffffff; background: #ff0000;">rgb(255,0,0)</li>
+            <li style="color: #ffffff; background: #00ff00;">rgb(0,255,0)</li>
+            <li style="color: #ffffff; background: #0000ff;">rgb(0,0,255)</li>
+            <li style="color: #ffffff; background: #c2c2c2;">rgb(194,194,194)</li>
+        </ul>
+    </section>
+
+    <section id="rgba" class="step" data-x="2000" data-y="0" data-z="-420" data-rotate-y="90">
+        <ul>
+            <li style="color: #000000;">rgba</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,0,1);">rgba(0,0,0,1)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,0,.8);">rgba(0,0,0,.8)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,0,.6);">rgba(0,0,0,.6)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,0,.4);">rgba(0,0,0,.4)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,0,.2);">rgba(0,0,0,.2)</li>
+            <li style="color: rgba(0,0,0,.6); background: rgba(0,0,0,0);">rgba(0,0,0,0)</li>
+        </ul>
+        <ul>
+            <li style="color: #000000;">rgba</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(255,0,0,1);">rgba(255,0,0,1)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(255,0,0,.8);">rgba(255,0,0,.8)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(255,0,0,.6);">rgba(255,0,0,.6)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(255,0,0,.4);">rgba(255,0,0,.4)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(255,0,0,.2);">rgba(255,0,0,.2)</li>
+            <li style="color: rgba(0,0,0,.6); background: rgba(255,0,0,0);">rgba(255,0,0,0)</li>
+        </ul>
+        <ul>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,255,0,1);">rgba(0,255,0,1)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,255,0,.8);">rgba(0,255,0,.8)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,255,0,.6);">rgba(0,255,0,.6)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,255,0,.4);">rgba(0,255,0,.4)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,255,0,.2);">rgba(0,255,0,.2)</li>
+            <li style="color: rgba(0,0,0,.6); background: rgba(0,0,0,0);">rgba(0,255,0,0)</li>
+        </ul>
+        <ul>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,255,1);">rgba(0,0,255,1)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,255,.8);">rgba(0,0,255,.8)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,255,.6);">rgba(0,0,255,.6)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,255,.4);">rgba(0,0,255,.4)</li>
+            <li style="color: rgba(255,255,255,.8); background: rgba(0,0,255,.2);">rgba(0,0,255,.2)</li>
+            <li style="color: rgba(0,0,0,.6); background: rgba(0,0,255,0);">rgba(0,0,255,0)</li>
+        </ul>
+    </section>
+
+    <section id="typesetting" class="step" data-x="4000" data-y="0">
+        <img src="media/images/typesettomg.jpeg" alt="">
+    </section>
+
+<!-- SAMENVATTING EN HUISWERK -->
+
+    <section id="overview" class="step" data-x="0" data-y="0" data-z="0" data-scale="8">
+    </section>
+
+    <section id="studievragen" class="step slide summaryHTML" data-x="0" data-y="-200" data-z="10000">
+        <h1>Studievragen</h1>
+        <ol>
+            <li>Wat wordt bedoeld met scheiding van vormgeving, inhoud en gedrag?</li>
+            <li>Wat zijn voordelen van het scheiden van vormgeving, inhoud en gedrag?</li>
+            <li>Wat is het verschil tussen inline, intern/embedded en externe CSS-code?</li>
+            <li>Hoe kan je je CSS code valideren?</li>
+            <li>Hoe ziet de anatomie van een CSS-regel eruit?</li>
+            <li>Welke verschillende soorten selectoren zijn er?</li>
+            <li>Wat wordt bedoeld met 'Cascading' in CSS?</li>
+            <li>Wat wordt bedoeld met 'overerven' binnen CSS?</li>
+        </ol>
+    </section>
+
+    <section class="step slide darkNeutral" data-x="0" data-y="600" data-z="10000">
+        <h1>Huiswerk</h1>
+        <p class="fullscreen">Lezen hoofdstuk 10, 11 en 12</p>
+    </section>
+
+</section>
+
+<!-- DIT AANZETTEN ALS VOOR STUDENTEN ONLINE KOMT
+<section class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</section>
+-->
+
+<!-- Impress is gemaakt door Bartek Szopka  - http://bartaz.github.com/impress.js/#/bored  -->
+<script type="text/javascript" src="static/js/impress.js"></script>
+<script>impress().init();</script>
+<script type="text/javascript" src="static/js/cmdfuncties.js"></script>
+
+</body>
+</html>
