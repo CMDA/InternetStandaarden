@@ -250,6 +250,8 @@ div.zoom {
     -ms-transition:     opacity 1s;
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
+
+    padding-left:100px;
 }
 
 .impress-enabled .step.active { 
