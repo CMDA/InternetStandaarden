@@ -27,9 +27,6 @@ p, blockquote, em {
     font-style: italic;
 }
 
-a {
-    background: red;
-}
 
 /* Pseudo classes */
 a:hover {
