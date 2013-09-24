@@ -1,0 +1,64 @@
+/* Voorbeeld */
+
+
+/* Universele selector */
+* {
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+}
+
+/* Tag type selector */
+h1 {
+    color: tomato;
+}
+
+/* Class selector */
+.other {
+    background: lime;
+}
+
+/* ID selector */
+#first {
+    border: 1px solid goldenrod;
+}
+
+/* Multiple element selector */
+p, blockquote, em {
+    font-style: italic;
+}
+
+a {
+    background: red;
+}
+
+/* Pseudo classes */
+a:hover {
+    background: blue;
+    font-size: 300px;
+}
+a:link {
+
+}
+a:visited {
+
+}
+a:active {
+
+}
+
+/* Descendant selector (afstammeling) */
+article h1 {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Child selector (niet nodig) */
+article>h1 {
+    color: red;
+}
+
+/* Adjacent selector */
+h1+p {
+    font-weight: bold;
+}
+
