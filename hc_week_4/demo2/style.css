@@ -1,0 +1,21 @@
+/* *************************
+ * DEMO 2
+ ***************************/
+
+/* START DEMO */
+#wrapper {
+}
+header {
+	background-color: red;
+	height: 100px;
+}
+article {
+	background-color: yellow;
+	height: 200px;
+}
+aside {
+	background-color: silver;
+	height: 200px;
+}
+footer {
+}

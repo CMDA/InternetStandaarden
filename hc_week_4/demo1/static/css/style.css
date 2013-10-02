@@ -1,0 +1,12 @@
+/* *************************
+ * DEMO 1
+ ***************************/
+ /* a little resetting of the browswer stylesheet */
+* {
+    margin:0;
+    padding:0;
+}
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/* START DEMO */
