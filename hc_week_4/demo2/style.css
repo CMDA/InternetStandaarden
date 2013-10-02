@@ -4,18 +4,28 @@
 
 /* START DEMO */
 #wrapper {
+	width:50%;
+	margin: auto;
 }
 header {
 	background-color: red;
 	height: 100px;
 }
 article {
+	padding:1%;
+	float:left;
+	width:73%;
 	background-color: yellow;
 	height: 200px;
 }
 aside {
+	margin-left:1%;
+	padding:1%;
+	float:right;
+	width: 22%;
 	background-color: silver;
 	height: 200px;
 }
 footer {
+	clear:both;
 }
