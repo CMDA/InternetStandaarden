@@ -3,115 +3,115 @@
  ***************************/
  /* a little resetting of the browswer stylesheet */
 * {
-    /*margin: 0;*/
-    /*padding: 0;*/
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	/*background-image: url("../images/bg.png");*/
-	/*background-attachment: fixed;*/
-	/*font-family: 'Arapey', serif;*/
+	background-image: url("../images/bg.png");
+	background-attachment: fixed;
+	font-family: 'Arapey', serif;
 }
 
 nav ul {
-	/*list-style-type: none;*/
+	list-style-type: none;
 }
 a {
-	/*color: black;*/
-	/*text-decoration: none;*/
+	color: black;
+	text-decoration: none;
 }
 
 /* *************************
  * LAYOUT
  ***************************/
 figure {
- 	/*float:left;*/
- 	/*width:180px;*/
- 	/*margin:10px;*/
+ 	float:left;
+ 	width:180px;
+ 	margin:10px;
 }
 div#right-column {
- 	/*margin-left:200px;*/
- 	/*max-width: 1000px;*/
+ 	margin-left:200px;
+ 	max-width: 1000px;
 }
 div#left-column {
- 	/*width:200px;*/
- 	/*float:left;*/
- 	/*position:fixed;*/
- 	/*margin:10px 0 0 10px;*/
+ 	width:200px;
+ 	float:left;
+ 	position:fixed;
+ 	margin:10px 0 0 10px;
 }
 nav {
- 	/*border-top: 3px solid rgb(100,100,100);*/
- 	/*width:180px;*/
- 	/*padding-top: 1em;*/
+ 	border-top: 3px solid rgb(100,100,100);
+ 	width:180px;
+ 	padding-top: 1em;
 }
  
 /* *************************
  * HEADER
  ***************************/
 header h1 {
-	/*background-image: url("../../media/images/title.jpg");*/
-	/*background-repeat: no-repeat;*/
-	/*height:37px;*/
+	background-image: url("../../media/images/title.jpg");
+	background-repeat: no-repeat;
+	height:37px;
 }
 .hide {
-	/*display: none;*/
+	display: none;
 }
 header {
-	/*background-color: black;*/
+	background-color: black;
 }
 
 /* *************************
  * LOGO + NAV
  ***************************/
 nav li {
-	/*height:2em;*/
+	height:2em;
 }
 a#current {
-	/*color: rgb(0,200,0);*/
+	color: rgb(0,200,0);
 }
 a:hover {
-	/*color: rgb(0,200,0);*/
+	color: rgb(0,200,0);
 }
 img#logo {
-	/*margin-bottom: 47px;*/
+	margin-bottom: 47px;
 }
 
 /* *************************
  * ARTICLES
  ***************************/
 section#project-descriptions {
-	/*clear: both;*/
+	clear: both;
 }
 article img {
-	/*float:right;*/
-	/*margin: 0 0 1em 1em;*/
-	/*width: 30%;*/
+	float:right;
+	margin: 0 0 1em 1em;
+	width: 30%;
 }
 article h1 {
-	/*clear:right;*/
-	/*margin:1em 0;*/
-	/*font-size: 20px;*/
+	clear:right;
+	margin:1em 0;
+	font-size: 20px;
 }
 /* *************************
  * MINI'S
  ***************************/
 figcaption {
-	/*border-top: 3px solid rgb(0,150,0);;*/
-	/*padding-top: 2em;*/
-	/*border-bottom: 3px solid rgb(100,100,100);*/
+	border-top: 3px solid rgb(0,150,0);;
+	padding-top: 2em;
+	border-bottom: 3px solid rgb(100,100,100);
 }
 figure img {
-	/*display:none;*/
+	display:none;
 }
 figure a {
-	/*padding-top:160px;*/
-	/*display:block;*/
+	padding-top:160px;
+	display:block;
 }
 
 /* *************************
  * UNIQUE ELEMENTS
  ***************************/
-/*
+
 #fig1 a{
 	background: url("../images/hover.png") no-repeat;
 	background-position: 0px 0px;
@@ -209,11 +209,11 @@ figure a {
 	background: url("../images/hover.png") no-repeat;
 	background-position: -1980px -234px;
 }
-*/
+
 /* *************************
  * JS classes
  **************************/
-/*
+
 .box {
  	display:block;
  	position:fixed;
@@ -225,5 +225,3 @@ figure a {
   	background-color: rgba(100, 100, 100, 0.95); 
  	padding:1em;
  }
-
-*/
