@@ -1,0 +1,95 @@
+* {
+    margin: 0px; padding: 0px;
+}
+
+body {
+    font-family: Garamond;
+    background: url(glitchyMe.png);
+}
+
+div#wrapper {
+    margin: 0 auto;
+    width: 50em;
+    background: rgba(255,255,255,0.9);
+    border-radius: 1em 1em 1em 0;
+}
+
+header {
+    background: crimson;
+    height: 4em;
+    line-height: 4em;
+    color: white;
+    padding-left: 1em;
+    border-radius: 1em 1em 1em 0;
+}
+
+nav {
+    margin: 1em 0;
+    height: 3em;
+}
+
+nav>ol>li {
+    display: inline;
+}
+
+nav ol>li>ul {
+    display: none;
+}
+
+nav>ol>li>a {
+    display: block;
+    float: left;
+    width: 15em;
+    height: 3em;
+    background: crimson;
+    margin-right: 1em;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+    border-radius: 1em 1em 1em 0;
+    text-decoration: none;
+}
+
+nav>ol>li>a:hover {
+    background: black;
+}
+
+main {
+    border-radius: 1em 1em 1em 0;
+    padding: 1em;
+}
+
+main blockquote {
+    margin: 1em auto;
+    font-style: italic;
+    width: 30em;
+}
+
+main blockquote:before,
+main blockquote:after {
+    content: '"';
+}
+
+main p {
+    margin: 1em 0;
+    width: 23em;
+    float: left;
+    text-align: justify;
+}
+
+main p+p {
+    float: right;
+}
+
+footer {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+

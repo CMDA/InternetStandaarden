@@ -1,0 +1,19 @@
+/**
+* Stylesheet voorbeeld 3
+*
+*/
+
+div#header h1 {
+	display: none;
+}
+
+div#footer {
+	height: auto;
+}
+
+div#footer p#uitgebreid {
+	display: none;
+	padding: 1em;
+	line-height: 1em;
+	text-align: left;
+}
