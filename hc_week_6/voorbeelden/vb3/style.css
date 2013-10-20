@@ -9,6 +9,7 @@ div#header h1 {
 
 div#footer {
 	height: auto;
+    cursor: pointer;
 }
 
 div#footer p#uitgebreid {
