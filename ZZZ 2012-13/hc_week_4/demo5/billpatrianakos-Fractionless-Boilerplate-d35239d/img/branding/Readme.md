@@ -1,1 +1,0 @@
-Your site's branding belongs here. Logos and other brand related image files.
