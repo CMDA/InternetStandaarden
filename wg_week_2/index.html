@@ -59,12 +59,10 @@
                     <th>Blokweek 2</th>
                     <td>DE ZOEKTOCHT NAAR BETEKENIS - Semantiek<br />
                         HOE MAAK JE HTML OP - Praktisch<br />
-                        DAT IS DOM! - HTML basis<br />
-                        UPLOAD – Publiceren van jouw website<br />
-                    </td>
-                    <td><div>Drieluik oefening analyse<br />
+                        DAT IS DOM! - HTML basis</td>
+                    <td>Drieluik oefening analyse<br />
                         Tools<br />
-                        Eerste website maken en online zetten<br /></div>
+                        Eerste website maken<br />
                     </td>
                 </tr>
                 <tr>
@@ -74,8 +72,8 @@
                         A BOX IN A BOX IN A BOX ... - Block vs. inline vs. invisible<br />
                         DON'T BELIEVE THE HYPE - nieuwe html5 elementen<br />
                     </td>
-                    <td><div class="zoom">Huiswerk bespreken<br />
-                        Criteria HTML<br />
+                    <td><div class="zoom">Criteria vaststellen met klas<br />
+                        Huiswerk bespreken<br />
                         Onderzoek menustijlen<br /></div>
                     </td>
                 </tr>
@@ -86,9 +84,9 @@
                         SELECTA – Hoe selecteer je elementen<br />
                         MOOIE DINGEN MAKEN - Over kleur en typografie 
                     </td>
-                    <td>FEEDBACKSESSIE HTML<br />
+                    <td>Wireframes schetsen<br />
+                        HTML template maken<br />
                         Demo one-column en two-column layout<br />
-                        Wireframes schetsen<br />
                     </td>
                 </tr>
                 <tr>
@@ -97,17 +95,19 @@
                         DE LEEGTE IS JE VRIEND - Box model<br />
                         LEG HET NEER - layout
                     </td>
-                    <td>Vlakverdeling oefening<br />
+                    <td>Presentaties html templates<br />
+                        Vlakverdeling oefening<br />
                         Grove vlakverdeling met CSS<br />
                     </td>
                 </tr>
                 <tr>
                     <th>Blokweek 6</th>
                     <td>IMAGINE THAT! – invoegen van afbeeldingen<br />
+                        UPLOAD – Publiceren van jouw website<br />
                         CSS3 FROM HELL – the perks and the prefix hell of CSS3<br />
                         GOED GEDRAG WORDT BELOOND - Javascript intro
                     </td>
-                    <td>FEEDBACKSESSIE CSS<br />
+                    <td>CSS oog voor detail<br />
                         jQuery<br />
                     </td>
                 </tr>
@@ -162,7 +162,7 @@ Vis met anijsaroma Lessen in lekkers Jeroen Meus is de bekendste tv-kok van Belg
             <li>Is het gelukt met het opmaken van je artikel? </li>
             <li>Straks controle van artikel 
                 <ul>
-                    <li>goed gestructureerd?</li>
+                    <li>leesbaar?</li>
                     <li>correcte syntax?</li>
                     <li>verzorging van code?</li>
                     <li>semantisch correct?</li>
@@ -183,11 +183,13 @@ Vis met anijsaroma Lessen in lekkers Jeroen Meus is de bekendste tv-kok van Belg
     <section class="step slide lightHTML" data-x="-2200" data-y="1300">
         <h1>Vergelijk met elkaar</h1>
         <ul>
-            <li>Is artikel goed <strong>gestructureerd</strong>?</li>
+            <li>Is artikel goed <strong>leesbaar</strong> en <strong>begrijpelijk</strong>?</li>
             <li>Is <strong>syntax</strong> correct?
                 <ul>
                     <li>Valideer je code met de W3C validator <br />
                     <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a></li>
+                    <li>Valideer je code met Lint <br />
+                    <a href="http://lint.brihten.com/html/#byinput">http://lint.brihten.com/html/#byinput</a></li>
                 </ul>
             </li>
             <li>Is de <strong>code netjes</strong> verzorgd? </li>
@@ -203,70 +205,39 @@ Vis met anijsaroma Lessen in lekkers Jeroen Meus is de bekendste tv-kok van Belg
         <img src="media/images/vuist.jpg" alt="eisen" />
     </section>
 
-    <section id="onzecriteria" class="step slide darkHTML" data-x="-800" data-y="-300">
-        <h1>Criteria practicumopdracht</h1>
-        <ol type="A" class="fullscreen">
-            <li><strong>AVV = Aan Voorwaarden Voldaan</strong> <br />
-                Als je hier niet aan voldoet krijg je geen beoordeling/feedback
-            </li>
-            <li><strong>Minimale criteria</strong><br />
-                Criteria over je HTML en CSS waaraan je <strong>allemaal</strong> moet voldoen voor een voldoende
-            </li>
-            <li><strong>Criteria voor ophoging</strong><br />
-                Met deze criteria kan je je cijfer ophogen, mits je een voldoende hebt
-            </li>
-        </ol>
-    </section>
-
-    <section class="step slide darkHTML" data-x="-800" data-y="500">
-        <h1>A) AVV - Aan Voorwaarden Voldaan</h1>
-        <ol class="fullscreen">
-            <li>De website bestaat uit tenminste vier pagina’s.</li>
+    <section id="onzecriteria" class="step slide lightHTML" data-x="-800" data-y="-300">
+        <h1>Onze criteria</h1>
+        <ul>
+            <li>De HTML-code is semantisch correct. </li>
+            <li>De HTML-code is syntactisch correct.</li>
+            <li>De CSS-code is syntactisch correct.</li>
+            <li>De Javascript-code is syntactisch correct en wordt gebruikt voor DOM-manipulatie.</li>
+            <li>HTML is enkel gebruikt voor content, CSS enkel voor opmaak, JQuery enkel voor gedrag.</li>
+            <li>De website heeft een menu gebaseerd op unordered lists.</li>
+            <li>De website functioneert in Chrome en de layout is consistent doorgevoerd.</li>
+            <li>Zowel de website als de broncode zijn verzorgd en leesbaar opgemaakt.</li>
             <li>De website bevat relevante inhoud in correct Nederlands.</li>
-            <li>De website is verzorgd en leesbaar opgemaakt.</li>
-            <li>Wanneer de content niet zelf is geproduceerd, wordt de bron vermeld (volgens de MLA standaard).</li>
-            <li>De website staat op Oege en is zonder technische problemen te bereiken.</li>
-        </ol>
+            <li>De website staat op de in de les aangegeven server en is zonder technische problemen te bereiken.</li>
+            <li>De website bestaat uit tenminste vier pagina’s.</li>
+        </ul>
     </section>
 
-    <section id="mincriteria" class="step slide darkHTML" data-x="-800" data-y="1300">
-        <h1>B) Minimale Criteria</h1>
-        <ol>
-            <li>HTML
-                <ol>
-                    <li>De HTML-code is semantisch correct, de inhoud is goed gestructureerd.</li>
-                    <li>De HTML-code is syntactisch correct, levert geen fouten op bij de validator.</li>
-                    <li>De website heeft een menu gebaseerd op unordered lists.</li>
-                </ol>
-            </li>
-            <li>CSS
-                <ol>
-                    <li>De CSS-code is syntactisch correct.</li>
-                    <li>De vormgeving is consistent doorgevoerd.</li>
-                </ol>
-            </li>
-            <li>Beiden
-                <ol>
-                    <li>De code voldoet aan de in de les aangereikte codingstandaarden.</li>
-                    <li>HTML is enkel gebruikt voor content, CSS enkel voor opmaak, (Javascript enkel voor gedrag) en is fysiek gescheiden.</li>
-                </ol>
-            </li>
-        </ol>
+    <section class="step slide lightHTML" data-x="-800" data-y="500">
+        <h1>Vaststellen criteria eindopdracht</h1>
+        <ul class="fullscreen">
+            <li>10 minuten</li>
+            <li>Groepen van zes</li> 
+            <li>Wat maakt een website goed</li>
+            <li>Wat is ‘uit den boze’</li>
+            <li>Formulering waarop ja of nee geantwoord kan worden</li>
+            <li>Vermijd subjectieve bewoordingen</li>
+            <li>4 tot 6 criteria</li>
+        </ul>
+        <ul>
+            <li>Samenvoegen in definitieve lijst door stemmen</li>
+            <li>Criteria komen op intranet</li>
+        </ul>
     </section>
-
-    <section class="step slide darkHTML" data-x="-800" data-y="2100">
-        <h1>C) Criteria voor ophoging zijn bijvoorbeeld</h1>
-        <ol class="fullscreen">
-            <li>Javascript / jQuery te gebruiken voor DOM-manipulatie.</li>
-            <li>Veel aandacht te besteden aan vormgeving. Je website oogt professioneel.</li>
-            <li>Elegant te coderen, bijvoorbeeld met behulp van een CSS-strategie.</li>
-            <li>Cross-browser verschillen op te lossen met behulp van CSS</li>
-            <li>Een technisch complexe lay-out te hanteren.</li>
-            <li>Een responsive design te realiseren.</li>
-        </ol>
-    </section>
-
-
 
 <!-- ONDERWERP 3 -->
 
@@ -274,48 +245,16 @@ Vis met anijsaroma Lessen in lekkers Jeroen Meus is de bekendste tv-kok van Belg
         <a href="http://www.welie.com/patterns/index.php" target="_blank" title="Welie.com"><img src="media/images/navigatie.jpg" alt="navigatiepatronen" /></a>
     </section>
 
-    <section class="step slide darkHTML" data-x="600" data-y="-300">
-        <ol>
-            <li>Bedenk uit welke pagina's jouw website gaat bestaan</li>
-            <li>Ga kijken naar verschillende menustijlen en laat je inspireren
-                <ol>
-                    <li><a href="http://css.maxdesign.com.au/">http://css.maxdesign.com.au/</a></li>
-                    <li><a href="http://www.cssplay.co.uk/menus/">http://www.cssplay.co.uk/menus/</a></li>
-                    <li><a href="http://www.webdesignerdepot.com/2011/11/navigation-patterns-for-ten-common-types-of-websites/">http://www.webdesignerdepot.com/2011/11/navigation-patterns-for-ten-common-types-of-websites/</a></li>
-                </ol>
-            </li>
-            <li>Bekijk in de bron hoe deze menu's gemaakt zijn</li>
-            <li>Start met het maken van je eigen menu in HTML</li>
-        </ol>
-    </section>
-
 <!-- SAMENVATTING EN HUISWERK -->
 
-    <section class="step slide darkNeutral" data-rotate="90" data-x="2000" data-y="-1500">
+    <section class="step slide darkNeutral" data-rotate="90" data-x="2000" data-y="-1100">
         <h1>Huiswerk</h1>
-        <ul>
-            <li>Oefeningen
-                <ul>
-                    <li>Nieuwe oefeningen HTML, zie manual - blokweek 3</li>
-                </ul>
-            </li>
-            <li>Practicumopdracht
-                <ul>
-                    <li>Content practicumwebsite zoveel mogelijk verzamelen en in HTML pagina's zetten</li>
-                    <li>Menu op elke pagina zetten</li>
-                    <li>Online zetten voor feedbacksessie volgende week</li>
-                </ul>
-            </li>
+        <ul class="fullscreen">
+            <li>Nieuwe oefeningen HTML, zie manual - blokweek 3</li>
+            <li>Content boekwebsite verzamelen / schrijven</li>
+            <li>Menuindeling bedenken</li>
         </ul>
     </section>
-
-    <section class="step slide darkNeutral" data-rotate="90" data-x="2000" data-y="-300">
-        <h1>Practicum</h1>
-        <p class="fullscreen">In werkgroepen weinig tijd om vragen te stellen over
-        oefeningen en eindopdracht practicum. Kom daarvoor naar het practicum. </p>
-        <p>Ook mogelijkheid voor online practicum. Hiervoor moet je je aanmelden. Zie uitleg op vakpagina op intranet.</p>
-    </section>
-
 
 </section>
 

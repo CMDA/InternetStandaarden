@@ -5,8 +5,31 @@
 * Copyleft 2012, all wrongs reversed
 */
 function reset () {
-	$('section#project-descriptions section').addClass("hide");
-	$('section#project-descriptions section').removeClass("box");
+	$('#description1').addClass("hide");
+	$('#description2').addClass("hide");
+	$('#description3').addClass("hide");
+	$('#description4').addClass("hide");
+	$('#description5').addClass("hide");
+	$('#description6').addClass("hide");
+	$('#description7').addClass("hide");
+	$('#description8').addClass("hide");
+	$('#description9').addClass("hide");
+	$('#description10').addClass("hide");
+	$('#description11').addClass("hide");
+	$('#description12').addClass("hide");
+	$('#description1').removeClass("box");
+	$('#description2').removeClass("box");
+	$('#description3').removeClass("box");
+	$('#description4').removeClass("box");
+	$('#description5').removeClass("box");
+	$('#description6').removeClass("box");
+	$('#description7').removeClass("box");
+	$('#description8').removeClass("box");
+	$('#description9').removeClass("box");
+	$('#description10').removeClass("box");
+	$('#description11').removeClass("box");
+	$('#description12').removeClass("box");
+
 };
 
 jQuery(function($) {

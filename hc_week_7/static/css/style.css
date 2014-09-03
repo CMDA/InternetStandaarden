@@ -202,26 +202,13 @@ p {
     font-size: 140px;
     color: #ffffff;
 }
-#tentamen1, #tentamen1a, #tentamen2a {
-    font-size: 100px;
-    color: #ffffff;
-
-}
-#tentamen1 ol, #tentamen2a ul{
-    font-size:40px;
-}
 #tentamen2 h1 {
     text-align: center;
     font-size: 100px;
     color: #ffffff;
 }
-#tentamen3, #tentamen3 ul {
-    margin: 0px 50px;
-    font-size: 30px;
+#tentamen3 {
     color:white;
-}
-#tentamen4 img {
-    padding-left: 200px;
 }
 #vraag1, #vraag2, #vraag3, #vraag4, #vraag5, #vraag6, #vraag7, #vraag8, #antwoorden {
     color:white;

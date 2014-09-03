@@ -41,7 +41,7 @@
         <img src="media/images/quote.jpg" alt="quote" width="1000" />
     </section>
 
-   <section id="weekoverzicht" class="step slide" data-x="-1100" data-y="-2200">
+    <section id="weekoverzicht" class="step slide" data-x="-1100" data-y="-2200">
         <h1>Weekoverzicht Internetstandaarden</h1>
         <table class="verticalLines">
             <thead>
@@ -57,12 +57,10 @@
                     <th>Blokweek 2</th>
                     <td>DE ZOEKTOCHT NAAR BETEKENIS - Semantiek<br />
                         HOE MAAK JE HTML OP - Praktisch<br />
-                        DAT IS DOM! - HTML basis<br />
-                        UPLOAD – Publiceren van jouw website<br />
-                    </td>
-                    <td><div>Drieluik oefening analyse<br />
+                        DAT IS DOM! - HTML basis</td>
+                    <td>Drieluik oefening analyse<br />
                         Tools<br />
-                        Eerste website maken en online zetten<br /></div>
+                        Eerste website maken<br />
                     </td>
                 </tr>
                 <tr>
@@ -72,8 +70,8 @@
                         A BOX IN A BOX IN A BOX ... - Block vs. inline vs. invisible<br />
                         DON'T BELIEVE THE HYPE - nieuwe html5 elementen<br />
                     </td>
-                    <td>Huiswerk bespreken<br />
-                        Criteria HTML<br />
+                    <td>Criteria vaststellen met klas<br />
+                        Huiswerk bespreken<br />
                         Onderzoek menustijlen<br />
                     </td>
                 </tr>
@@ -82,11 +80,11 @@
                     <td>DIVIDE ET IMPERA – Scheiding vormgeving, inhoud en gedrag<br />
                         HOE PAS JE CSS TOE - Praktisch<br />
                         SELECTA – Hoe selecteer je elementen<br />
-                        MOOIE DINGEN MAKEN - Over kleur en typografie
+                        MOOIE DINGEN MAKEN - Over kleur en typografie 
                     </td>
-                    <td>FEEDBACKSESSIE HTML<br />
+                    <td>Wireframes schetsen<br />
+                        HTML template maken<br />
                         Demo one-column en two-column layout<br />
-                        Wireframes schetsen<br />
                     </td>
                 </tr>
                 <tr>
@@ -95,17 +93,19 @@
                         DE LEEGTE IS JE VRIEND - Box model<br />
                         LEG HET NEER - layout
                     </td>
-                    <td><div class="zoom">Vlakverdeling oefening<br />
+                    <td><div class="zoom">Presentaties html templates<br />
+                        Vlakverdeling oefening<br />
                         Grove vlakverdeling met CSS<br /></div>
                     </td>
                 </tr>
                 <tr>
                     <th>Blokweek 6</th>
                     <td>IMAGINE THAT! – invoegen van afbeeldingen<br />
+                        UPLOAD – Publiceren van jouw website<br />
                         CSS3 FROM HELL – the perks and the prefix hell of CSS3<br />
                         GOED GEDRAG WORDT BELOOND - Javascript intro
                     </td>
-                    <td>FEEDBACKSESSIE CSS<br />
+                    <td>CSS oog voor detail<br />
                         jQuery<br />
                     </td>
                 </tr>
@@ -146,22 +146,33 @@
 
 <!-- ONDERWERP 1 -->
 
-    <section id="huiswerkbespreking" class="step slide darkHTML" data-x="-2200" data-y="-1100">
-        <h1>Huiswerk en college</h1>
-        <p>Vragen over het huiswerk of over het hoorcollege? <br />
-        college over box-model, layout en pseudo-classes <br />
-        <img src="media/images/huiswerk.png" alt="huiswerk" />
-        </p>
+<!-- 
+Laat een aantal studenten hun werk presenteren op de beamer. Wijs er een aantal aan of laat
+ze zelf bepalen of ze willen presenteren.
+-->
+
+    <section id="huiswerkpresentatie" class="step slide darkCSS" data-x="-2200" data-y="-1100">
+        <h1>Huiswerkpresentaties</h1>
+        <p class="fullscreen">Presentaties van je site tot nu toe aan de klas</p>
     </section>
 
 <!-- ONDERWERP 2 -->
 
-    <section id="vlakverdeling" class="step" data-x="-600" data-y="-1100">
+<!-- 
+Het is handig als je een zwarte, blauwe, groene en rode stift voor het bord meeneemt.
+Herhaal nog eens het boxmodel en leg uit dat de 'width' alleen over de inhoud gaat.
+Geef elke student de code die uitgeprint is. De eerste pagina toont de html. Daarna 
+volgen 4 css bestanden die met deze html gecombineerd worden.
+Werk samen met de klas de eerste op het bord uit. Zet de dimensies in pixels bij elk element.
+Laat studenten in groepen de rest van de oplossingen tekenen 
+Nummer 4 is waarschijnlijk te moeilijk voor de meesten.
+-->
+    <section id="vlakverdeling" class="step" data-x="-800" data-y="-1100">
         <img src="media/images/vlakverdeling.jpg" alt="vlakverdeling" width="1000" />
     </section>
 
 <!-- LET OP: klik op de woorden bovenaan de pagina -->
-    <section id="boxmodel" class="step" data-x="-600" data-y="-300">
+    <section id="boxmodel" class="step" data-x="-800" data-y="-300">
         <h1>Box-model</h1>
         <div id="cf7" class="shadow">
           <img class='opaque' src="media/images/boxmodel1.png" />
@@ -179,21 +190,7 @@
         </p>
     </section>
 
-    <section id="centreren" class="step slide darkCSS" data-x="-600" data-y="500">
-        <h1>Centreren</h1>
-        <ul class="fullscreen">
-            <li><code>margin:auto; </code><br />
-                een element zichzelf laten centreren t.o.v. zijn omvattende element</li>
-            <li><code>text-align:center; </code><br />
-                de inhoud van een element centreren</li>
-        </ul>
-    </section>
-    
-    <section id="float" class="step" data-x="-600" data-y="1300">
-        <img src="media/images/float.jpg" alt="float en clear" />
-    </section>
-
-    <section id="oefening" class="step slide lightCSS" data-x="-600" data-y="2100">
+    <section id="oefening" class="step slide lightCSS" data-x="-800" data-y="500">
         <h1>Oefening vlakverdeling</h1>
         <ul class="fullscreen">
             <li>Voorbeeld</li>
@@ -206,37 +203,32 @@
         </ul>
     </section>
 
-    <section class="step" data-x="-600" data-y="2900">
+    <section class="step" data-x="-800" data-y="1300">
         <img src="media/images/voorbeeld1.png" alt="voorbeeld 1" />
     </section>
 
-    <section class="step" data-x="-600" data-y="3700">
+    <section class="step" data-x="-800" data-y="2100">
         <img src="media/images/voorbeeld2.png" alt="voorbeeld 2" />
     </section>
 
-    <section class="step" data-x="-600" data-y="4500">
+    <section class="step" data-x="-800" data-y="2900">
         <img src="media/images/voorbeeld3.png" alt="voorbeeld 3" />
     </section>
 
-    <section class="step" data-x="-600" data-y="5300">
+    <section class="step" data-x="-800" data-y="3700">
         <img src="media/images/voorbeeld4.png" alt="voorbeeld 4" />
-    </section>
-
-<!-- ONDERWERP 3 -->
-
-    <section id="learnlayout" class="step" data-x="800" data-y="-1100">
-        <a href="http://learnlayout.com"><img src="media/images/learnlayout.png" alt="learnlayout" width="1000" /></a>
     </section>
 
 
 <!-- SAMENVATTING EN HUISWERK -->
 
-    <section id="huiswerk" class="step slide darkNeutral" data-rotate="90" data-x="2200" data-y="-1100">
+    <section id="huiswerk" class="step slide darkNeutral" data-rotate="90" data-x="800" data-y="-1100">
         <h1>Huiswerk</h1>
         <ul class="fullscreen">
-            <li>Beginneling - Laatste oefeningen CSS, <br />zie manual - pag. 31</li>
-            <li>Gevorderden - Oefening introductie jQuery</li>
-            <li><strong>CSS van je website zoveel mogelijk af en online voor CSS Feedbacksessie volgende week</strong></li>
+            <li>Beginneling - Laatste oefeningen CSS, <br />zie manual - pag. 33</li>
+            <li>Beginneling / Gevorderde? - Oefening introductie jQuery, <br />zie vakpagina op intranet</li>
+            <li>Beginneling + Gevorderde - Werken aan je boekenwebsite, stijlen met CSS</li>
+            <li>Gevorderde - Nieuwe mogelijkheden CSS onderzoeken, <br />zie manual - pag. 33</li>
         </ul>
     </section>
 

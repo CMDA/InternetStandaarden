@@ -19,19 +19,19 @@
 <!-- the parametere data-transition-duration sets the number of miliseconds for a transition -->
 <section id="impress" data-transition-duration="1000">
     <!--
-
+        
         All the possible attributes used to position presentation steps, are:
-
+        
         * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
             the canvas in pixels; their default value is 0;
         * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
             the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
             are exactly the same;
         * `data-scale` - defines the scale of step element; default value is 1
-
+        
         These values are used by impress.js in CSS transformation functions, so for more information consult
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
-
+        
     -->
 
 <!-- INTRO -->
@@ -58,12 +58,10 @@
                     <th>Blokweek 2</th>
                     <td>DE ZOEKTOCHT NAAR BETEKENIS - Semantiek<br />
                         HOE MAAK JE HTML OP - Praktisch<br />
-                        DAT IS DOM! - HTML basis<br />
-                        UPLOAD – Publiceren van jouw website<br />
-                    </td>
-                    <td><div>Drieluik oefening analyse<br />
+                        DAT IS DOM! - HTML basis</td>
+                    <td>Drieluik oefening analyse<br />
                         Tools<br />
-                        Eerste website maken en online zetten<br /></div>
+                        Eerste website maken<br />
                     </td>
                 </tr>
                 <tr>
@@ -73,8 +71,8 @@
                         A BOX IN A BOX IN A BOX ... - Block vs. inline vs. invisible<br />
                         DON'T BELIEVE THE HYPE - nieuwe html5 elementen<br />
                     </td>
-                    <td>Huiswerk bespreken<br />
-                        Criteria HTML<br />
+                    <td>Criteria vaststellen met klas<br />
+                        Huiswerk bespreken<br />
                         Onderzoek menustijlen<br />
                     </td>
                 </tr>
@@ -83,11 +81,11 @@
                     <td>DIVIDE ET IMPERA – Scheiding vormgeving, inhoud en gedrag<br />
                         HOE PAS JE CSS TOE - Praktisch<br />
                         SELECTA – Hoe selecteer je elementen<br />
-                        MOOIE DINGEN MAKEN - Over kleur en typografie
+                        MOOIE DINGEN MAKEN - Over kleur en typografie 
                     </td>
-                    <td><div class="zoom">FEEDBACKSESSIE HTML<br />
-                        Demo one-column en two-column layout<br />
-                        Wireframes schetsen<br /></div>
+                    <td><div class="zoom">Wireframes schetsen<br />
+                        HTML template maken<br />
+                        Demo one-column en two-column layout<br /></div>
                     </td>
                 </tr>
                 <tr>
@@ -96,17 +94,19 @@
                         DE LEEGTE IS JE VRIEND - Box model<br />
                         LEG HET NEER - layout
                     </td>
-                    <td>Vlakverdeling oefening<br />
+                    <td>Presentaties html templates<br />
+                        Vlakverdeling oefening<br />
                         Grove vlakverdeling met CSS<br />
                     </td>
                 </tr>
                 <tr>
                     <th>Blokweek 6</th>
                     <td>IMAGINE THAT! – invoegen van afbeeldingen<br />
+                        UPLOAD – Publiceren van jouw website<br />
                         CSS3 FROM HELL – the perks and the prefix hell of CSS3<br />
                         GOED GEDRAG WORDT BELOOND - Javascript intro
                     </td>
-                    <td>FEEDBACKSESSIE CSS<br />
+                    <td>CSS oog voor detail<br />
                         jQuery<br />
                     </td>
                 </tr>
@@ -142,62 +142,43 @@
         </table>
     </section>
 
+    <section id="huiswerkbespreking" class="step slide darkHTML" data-x="0" data-y="-2200">
+        <h1>Huiswerkbespreking</h1>
+        <p class="fullscreen">Welk boek heb je gekozen? <br />Wat is de content van je website?</p>
+    </section>
+
     <section id="overview" class="step" data-x="0" data-y="0" data-scale="8">
     </section>
 
 <!-- ONDERWERP 1 -->
 
-    <section id="huiswerkbespreking" class="step slide darkHTML" data-x="-2200" data-y="-1100">
-        <h1>Huiswerk en college</h1>
-        <p class="fullscreen">Vragen over het huiswerk of over het hoorcollege? <br />
-        <a href="AntwoordenOefeningen/syntaxfouten.html">syntaxfouten.html</a> <br />
-        <a href="AntwoordenOefeningen/syntaxfoutenVerbeterd.html">syntaxfoutenVerbeterd.html</a> <br />
-        <a href="AntwoordenOefeningen/semantischefouten.html">semantischefouten.html</a> <br />
-        <a href="AntwoordenOefeningen/semantischefoutenVerbeterd.html">semantischefoutenVerbeterd.html</a> <br />
-        </p>
+    <section id="demo" class="step slide darkHTML" data-x="-2200" data-y="-1100">
+        <h1>Demo Layout met CSS</h1>
+        <img src="media/images/demo.jpg" alt="demonstratie" width="1000" />
     </section>
-
 
 <!-- ONDERWERP 2 -->
 
-    <section id="Feedbacksessie" class="step slide darkHTML" data-x="-800" data-y="-1100">
-        <p class="fullscreen">Feedback is een kadootje</p>
-        <img src="media/images/kado.png" alt="kado" />
+    <section id="htmlTemplate" class="step slide darkHTML" data-x="-800" data-y="-1100">
+        <p class=fullscreen>Oefening HTML template maken</p>
     </section>
 
-    <section class="step slide darkHTML" data-x="-800" data-y="-300">
-        <h1>Stappen feedbacksessie</h1>
-        <ol class="fullscreen">
-            <li>Vul op je eigen formulier je url in</li>
-            <li>Geef je formulier door aan klasgenoot</li>
-            <li>Beoordeel elkaars website op de HTML criteria. Gebruik driehoek of rondje</li>
-            <li>Bespreek de feedback die je hebt ontvangen</li>
-            <li>Maak een foto voor jezelf van de feedback en geef het formulier terug aan de docent</li>
-        </ol>
-    </section>
 
 <!-- ONDERWERP 3 -->
 
-    <section id="demo" class="step slide darkHTML" data-x="600" data-y="-1100">
-        <h1>Demo Layout met CSS</h1>
-        <a href="DemoSonja/index.html"><img src="media/images/demo.jpg" alt="demonstratie" width="1000" /></a>
-    </section>
-
-<!-- ONDERWERP 4 -->
-
-    <section id="wireframe" class="step slide darkHTML" data-x="2000" data-y="-1100">
+    <section id="wireframe" class="step slide darkHTML" data-x="600" data-y="-1100">
         <h1>Schets de pagina's van je website</h1>
         <p><img src="media/images/wireframe.jpg" alt="wireframe" /></p>
     </section>
 
 <!-- SAMENVATTING EN HUISWERK -->
 
-    <section id="huiswerk" class="step slide darkNeutral" data-rotate="90" data-x="3400" data-y="-1100">
+    <section id="huiswerk" class="step slide darkNeutral" data-rotate="90" data-x="2000" data-y="-1100">
         <h1>Huiswerk</h1>
         <ul class="fullscreen">
-            <li>Beginneling - Oefeningen CSS, <br />zie manual - pag. 28</li>
-            <li>Gevorderde - Verdiepen in de mogelijkheden van HTML5, <br />zie manual - pag. 29</li>
-            <li>HTML-template(s) maken voor je website, <br />zie manual - pag. 28</li>
+            <li>Beginneling - Oefeningen CSS, <br />zie manual - pag. 30</li>
+            <li>Gevorderde - Verdiepen in de mogelijkheden van HTML5, <br />zie manual - pag. 31</li>
+            <li>HTML-template(s) maken voor je boekenwebsite, <br />zie manual - pag. 30</li>
         </ul>
     </section>
 
@@ -213,6 +194,6 @@
 <script type="text/javascript" src="static/js/impress.js"></script>
 <script>impress().init();</script>
 <script type="text/javascript" src="static/js/cmdfuncties.js"></script>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 </body>
 </html>

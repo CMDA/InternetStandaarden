@@ -8,7 +8,7 @@ div#wrapper {
 	border:1px solid black;
 	width:800px;
 	padding:10px;
-	margin:30px auto;
+	margin:auto;
 }
 header {
 	float:left;

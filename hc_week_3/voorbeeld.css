@@ -1,61 +1,36 @@
-/* Voorbeeld */
-
-
-/* Universele selector */
-* {
-    font-family: Alegreya, 'Helvetica Neue';
-    font-weight: 200;
-}
-
-/* Tag type selector */
+/* tag-type */
 h1 {
-    color: tomato;
+	color: #ff0000;
+	border-radius: 10px;
+	font-family: 'Krona One', sans-serif;
 }
 
-/* Class selector */
-.other {
-    background: lime;
+p {
+	font-family: 'Alegreya', serif;
 }
 
-/* ID selector */
+
+/* meerdere tag-types */
+h1, p {
+	background: #00ff00;
+}
+
+/* id */
 #first {
-    border: 1px solid goldenrod;
+	color: #0000ff;
 }
 
-/* Multiple element selector */
-p, blockquote, em {
-    font-style: italic;
+/* classy */
+.other {
+	background: silver;
 }
 
-
-/* Pseudo classes */
+/* pseudo-class */
 a:hover {
-    background: blue;
-    font-size: 300px;
-}
-a:link {
-
-}
-a:visited {
-
-}
-a:active {
-
+	background: tomato;
 }
 
-/* Descendant selector (afstammeling) */
-article h1 {
-    color: purple;
-    font-weight: bold;
+/* descendant/ afstammeling */
+header h1 {
+	font-size: 30px;
 }
-
-/* Child selector (niet nodig) */
-article>h1 {
-    color: red;
-}
-
-/* Adjacent selector */
-h1+p {
-    font-weight: bold;
-}
-

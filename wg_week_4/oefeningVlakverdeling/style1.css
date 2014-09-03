@@ -7,7 +7,7 @@
 div#wrapper {
 	border:1px solid black;
 	width:800px;
-	margin:30px auto;
+	margin:auto;
 	padding:10px;
 }
 header {

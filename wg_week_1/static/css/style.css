@@ -50,7 +50,7 @@ iframe {
 }
 ul, ol {
     margin: 40px 40px 40px 80px;
-    font-size:32px;
+    font-size:48px;
 }
 p {
     margin: 40px;
@@ -250,8 +250,6 @@ div.zoom {
     -ms-transition:     opacity 1s;
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
-
-    padding-left:100px;
 }
 
 .impress-enabled .step.active { 
@@ -262,6 +260,7 @@ div.zoom {
 /*************************************
   * UNIQUE STEPS
   ************************************/
+
 #weekoverzicht.present .zoom {
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;

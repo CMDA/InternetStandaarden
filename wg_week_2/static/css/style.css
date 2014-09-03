@@ -53,7 +53,7 @@ iframe {
     margin-left: 40px;
 }
 ul, ol {
-    margin: 80px 40px 40px 120px;
+    margin: 40px 40px 40px 80px;
 }
 p {
     margin: 40px;
@@ -285,11 +285,6 @@ div.zoom {
 
 #onzecriteria ul{
     font-size: 30px;
-}
-#mincriteria ol {
-    font-size: 24px;
-    margin-top:0;
-    margin-bottom:0;
 }
 
 #overview { display: none }
