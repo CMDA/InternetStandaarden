@@ -1,1 +1,0 @@
-Put your site-wide design images in this folder. Backgrounds and such belong here.
