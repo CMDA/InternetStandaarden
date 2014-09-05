@@ -113,6 +113,8 @@ b.  Enkele woorden waarmee de inhoud van een stuk tekst aangeduid wordt
 
 c.  Hangt er van af hoe je het bekijkt
 
+d.  Anders, nl.
+
 !
 
 # Conceptuele benadering HTML
