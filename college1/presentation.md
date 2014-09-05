@@ -1,0 +1,1 @@
+<img src="cthulhu.png" class="centered" />
