@@ -67,7 +67,7 @@
   <tr>
     <td>44</td>
     <td>Responsie en tentamenvoorbereiding</td>
-    <td></td>
+    <td><strong>Aanwezigheid verplicht!</strong> Feedbacksessie CSS</td>
     <td>idem</td>
   </tr>
   <tr>
@@ -106,7 +106,17 @@ Als beide onderdelen voldoende zijn worden deze gemiddeld, de uiteindelijke scor
 
 !
 
-# Analyse van websites
+# Vraagstuk:
+
+## Wat is een titel
+
+a.  Een dikgedrukte tekst boven de inhoud van een stuk tekst
+
+b.  Enkele woorden waarmee de inhoud van een stuk tekst aangeduid wordt
+
+c.  Enkele woorden voorafgegaan door &lt;h1> en afgesloten met &lt;/h1>
+
+d.  Hangt er van af hoe je het bekijkt
 
 !
 
