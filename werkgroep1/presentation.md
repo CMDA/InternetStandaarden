@@ -107,7 +107,7 @@ Als beide onderdelen voldoende zijn worden deze gemiddeld, de uiteindelijke scor
 # Wat is een titel?
 
 
-a.  Een dikgedrukte tekst boven de inhoud van een stuk tekst
+a.  Enkele dikgedrukte woorden boven de inhoud van een stuk tekst
 
 b.  Enkele woorden waarmee de inhoud van een stuk tekst aangeduid wordt
 
@@ -178,7 +178,7 @@ Upload On Save: aanvinken
 1. Maak een nieuw bestand door CMD/CTRL+N te typen
 2. Type iets in, bijvoorbeeld: Hallo Wereld!
 3. Sla het op, kies een nuttige bestandsnaam
-3. bekijk dit in de browser
+3. Open in je browser de URL: http://oege.ie.hva.nl
 
 !
 
