@@ -23,36 +23,37 @@
     <th>Week</th>
     <th>College</th>
     <th>Werkgroep</th>
-    <th>Practicum</th>
+    <th>Studielab</th>
   </tr>
   <tr>
     <td>37</td>
     <td>Introductie, werkwijze, overzicht en toetsing van het vak</td>
     <td>Installatie tools en eerste kennismaking met de materie</td>
-    <td class="empty" rowspan="2"></td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>38</td>
     <td>Historie van het internet, semantische HTML en client-server architectuur</td>
     <td>Criteria voor een goede website, beoordelingsformulier</td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>39</td>
     <td>The internet is made of hypertext, semantiek vs. syntaxis</td>
     <td>Omgaan met aangeleverde content, teksten in HTML zetten</td>
-    <td>dinsdagochtend in de medialounge</td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>40</td>
     <td>Add some style, over de principes van css: kleur &amp; typografie</td>
     <td><strong>Aanwezigheid verplicht!</strong> Feedbacksessie HTML, een demo van de mogelijkheden van CSS</td>
-    <td>idem</td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>41</td>
     <td>Layout met CSS, het box-model en menustructuren</td>
     <td>Layout voor eindopdracht schetsen met wireframes en deze proberen werkend te maken</td>
-    <td>idem</td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr class="empty">
     <td>42</td>
@@ -62,13 +63,13 @@
     <td>43</td>
     <td>Over het gebruik van afbeeldingen tabellen en formulieren. Javascript FTW!</td>
     <td>Werken aan eindopdracht</td>
-    <td>idem</td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>44</td>
     <td>Responsie en tentamenvoorbereiding</td>
     <td><strong>Aanwezigheid verplicht!</strong> Feedbacksessie CSS</td>
-    <td>idem</td>
+    <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>45</td>
