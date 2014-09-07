@@ -180,29 +180,53 @@ Upload On Save: aanvinken
 
 1. Maak een nieuw bestand door CMD/CTRL+N te typen
 2. Type iets in, bijvoorbeeld: Hallo Wereld!
-3. Sla het op, kies een nuttige bestandsnaam
-3. Open in je browser de URL: http://oege.ie.hva.nl
+3. Sla het op, kies een nuttige bestandsnaam (als het goed is gaat het uploaden automagisch)
+3. Open in je browser de volgende URL: 
+
+http://oege.ie.hva.nl/~_gebruikersnaam_/_bestandsnaam_
 
 !
 
 # Hallo wereld (2)
+![hallo2](helloWorld2.png)
 
-1. type weer iets in in bracket
-2. sla dit op met de extentie .html
-3. upload dat
-4. bekijk dit in de browser
-
-! 
-
-# Hallo wereld (3)
-
-1. neem de volgende structuur over (p26)
-2. sla het bestand op met de extentie .html
-3. type ‘Hallo wereld!’ tussen de <body> en </body> in
-4. upload dat
-5. bekijk dit in de browser
+1. Zet bestand &lt;h1> tags om de zojuist getypte tekst heen
+2. Sla het opnieuw op (als het goed is gaat het uploaden automagisch)
+3. Open je browser en ververs de pagina om het resultaat te bekijken
 
 !
 
+# Hallo wereld (3)
+![hallo2](helloWorld3.png)
 
-[opschrift](http://www.link.com "beschrijving")
+1. Neem de HTML structuur op pagina 27 van het boek over, zorg dat de door jou getypte tekst binnen de &lt;body> en &lt;/body> tags staan
+2. Sla het bestand op maar nu met de extentie .html, daardoor herkent de browser dat er HTML in je bestand staat
+3. Open je browser en ververs de pagina om het resultaat te bekijken
+
+!
+
+# Gefeliciteerd!
+Je hebt een website online staan, je oma in Brazilie kan deze pagina nu ook bezoeken!!11oneone
+
+!
+
+# Recap
+
+We hebben deze les de volgende dingen behandeld:
+
+- Wat houdt HTML in
+- De installatie van Brackets
+- Een account op oege.ie.hva.nl, onze webserver
+- Het maken en uploaden van een eerste website(je)
+
+!
+
+# Huiswerk voor volgende week
+
+De links voor het huiswerk staan op Moodle!
+
+- Onderdelen van deze les waar je nog niet aan toegekomen was (!)
+- Uit HTML & CSS: Lees de inleiding en hoofdstukken 1 en 2
+- Op codecademy.com: HTML Basics en Build your own webpage
+- Opmaken van een artikel: Cthulhu, Grimnir, Primus, Iluvátar
+- Optioneel: Volg de HTML essential training op Lynda.com
