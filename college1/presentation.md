@@ -97,7 +97,7 @@ Nederlandse of Engelse versie, papier of digitaal
   <tr>
     <td>40</td>
     <td>Add some style, over de principes van css: kleur &amp; typografie</td>
-    <td><strong>Aanwezigheid verplicht!</strong> Feedbacksessie HTML, een demo van de mogelijkheden van CSS</td>
+    <td class="pulsor"><strong>Aanwezigheid verplicht!</strong> Feedbacksessie HTML, een demo van de mogelijkheden van CSS</td>
     <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
@@ -119,13 +119,13 @@ Nederlandse of Engelse versie, papier of digitaal
   <tr>
     <td>44</td>
     <td>Responsie en tentamenvoorbereiding</td>
-    <td><strong>Aanwezigheid verplicht!</strong> Feedbacksessie CSS</td>
+    <td class="pulsor"><strong>Aanwezigheid verplicht!</strong> Feedbacksessie CSS</td>
     <td>dinsdag<br/>10.10-13.00 medialounge</td>
   </tr>
   <tr>
     <td>45</td>
-    <td><strong>Tentamen op 5 november!</strong></td>
-    <td><strong>Eindopdracht indienen!</strong><br/>2 november 23.59u via Moodle</td>
+    <td class="pulsor"><strong>Tentamen op 5 november!</strong></td>
+    <td class="pulsor"><strong>Eindopdracht indienen!</strong><br/>2 november 23.59u via Moodle</td>
   </tr>
 </table>
 
@@ -133,23 +133,32 @@ Nederlandse of Engelse versie, papier of digitaal
 
 # Werkwijze
 ![werkwijze](DeathtoStock_Desk1.jpg)
-Je zult bij de tijdsbesteding aan dit vak veel tijd achter je laptop doorbrengen (maar dat had je misschien al verwacht).
+Je zult bij de tijdsbesteding aan dit vak veel tijd achter je laptop doorbrengen (maar dat had je misschien al verwacht). Het programma en huiswerkopdrachten staan op [de moodle pagina behorend bij het vak](https://moodle.dmci.hva.nl/moodle21/course/view.php?id=158).
 
 !
 
-# Hoorcolleges
-plaats voor 90 man! op inschrijving via Moodle
-live stream, filmpje
+# Wekelijkse hoorcolleges
+![opkomst](opkomst.jpg)
 
+- Op vrijdagochtend in de collegezaal van het Benno Premselahuis
+- Zitplaats voor 90 studenten, toegang na inschrijving (op moodle)
+- Live te volgen vanuit je bed via streaming video! (link op moodle)
+- Tijdens live stream stellen via Twitter met hashtag #cmdais
+- Later te bekijken via HvA webcolleges (link op moodle)
+- In de hoorcolleges wordt theorie behandeld
 
 !
 
-# Werkgroepen
+# Wekelijkse werkgroepen
+![werkgroep](werkgroep.png)
+
+Tijdens de werkgroep breng je theorie in praktijk en heb je de gelegenheid om vragen aan een vakdocent te stellen. Er zijn zoals gezegd twee verplichte feedbackmomenten in week 40 en 44 maar dit betekend niet dat de andere werkgroepen gemist kunnen worden.
 
 !
 
-# Studielab
-dinsdag van 10.10 - 13.00
+# Studielab bij CMD
+![werkgroep](studielab.jpg)
+Bijna elke dinsdag van 10.10 - 13.00
 
 !
 
@@ -159,7 +168,28 @@ dinsdag van 10.10 - 13.00
 !
 
 # Berekening van de studielast
+De studielast binnen de vakken wordt bij CMD als volgt berekend:
+
+	voor een vak krijg je 3 studiepunten (ects)
+	1 studiepunt staat voor 28 studiebelastingsuren
+	aan een vak besteed je dus 3 x 28 = 84 uur
+
+	hoorcolleges en werkgroepen duren elk 100 minuten
+	dus je krijgt 200/60 = 3,33 uur les per week
+	totaal besteed je 7 x 3,33 = 23,33 uur aan lessen
+
+	er is dus 84 - 23,33 = 60,66 uur over
+	trek daar het tentamen van ~120 minuten af
+	dan houden we 58,66 uur over voor huiswerk
+
+	houd rekening met max. 58 / 7 = 8,38 uur
+	aan huiswerk per week (voor elk vak!)
+
 
 !
 
-# Vragen?
+# Huiswerk
+
+Bij de hoorcolleges krijg je theorie als huiswerk op
+
+- Uit HTML & CSS: Lees de inleiding en hoofdstukken 1 en 2 (ongeveer 55 pagina's)

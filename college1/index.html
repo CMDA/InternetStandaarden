@@ -52,6 +52,26 @@
     img {
         width: 100%;
     }
+    .pulsor {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-animation: pulsate 3s infinite alternate;
+        -moz-animation: pulsate 3s infinite alternate;
+        -animation: pulsate 3s infinite alternate;
+    }
+    @-webkit-keyframes pulsate {
+        from { box-shadow: 0; }
+        to { box-shadow: 0 0 20px #FF69B4; }
+    }
+    @-moz-keyframes pulsate {
+        from { box-shadow: 0; }
+        to { box-shadow: 0 0 20px #FF69B4; }
+    }
+    @keyframes pulsate {
+        from { box-shadow: 0; }
+        to { box-shadow: 0 0 20px #FF69B4; }
+    }
     img.centered {
         width: auto;
         display: block;
