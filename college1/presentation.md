@@ -49,13 +49,13 @@ Stemherkenning wordt steeds beter maar het verwerken van natuurlijke tekst blijf
 
 # Standaardisatie op het web
 ![TBL](timbernerslee.jpg)
-Tim Berners Lee bedacht _HyperText Markup Language_ als standaard voor het uitwisselen van informatie op internet
+Tim Berners Lee bedacht _HyperText Markup Language_ (HTML) als standaard voor het uitwisselen van informatie op internet
 
 !
 
 # Standaardisatie op het web
 ![HWL](hakonwiumlie.jpg)
-Hakon Wium Lie bedacht CSS om die HTML van Tim een beetje toonbaar te maken
+Hakon Wium Lie bedacht _Cascading StyleSheets_ (CSS) om HTML een beetje toonbaar te maken
 
 !
 
