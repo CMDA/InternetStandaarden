@@ -8,11 +8,18 @@
 
 # Agenda
 
+- Verwachtingen
 - Praktische informatie over internet standaarden
 - Conceptuele benadering HTML
 - Installatie van Brackets.io (download alvast)
 - Hallo wereld!
 - Huiswerk
+
+!
+
+# Verwachtingen
+![postit](postit.jpg)
+Wat zijn je verwachtingen bij dit vak?
 
 !
 
@@ -181,7 +188,7 @@ Upload On Save: aanvinken
 1. Maak een nieuw bestand door CMD/CTRL+N te typen
 2. Type iets in, bijvoorbeeld: Hallo Wereld!
 3. Sla het op, kies een nuttige bestandsnaam (als het goed is gaat het uploaden automagisch)
-3. Open in je browser de volgende URL: 
+3. Open in je browser de volgende URL:
 
 http://oege.ie.hva.nl/~_gebruikersnaam_/_bestandsnaam_
 
