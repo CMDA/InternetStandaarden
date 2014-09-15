@@ -155,8 +155,8 @@ Voorbeeld van een semantische fout
 		<title>Een nette titel zeg</title>	
 	</head>
 	<body>
-		<h1>Dit is de titel van een stuk</h1>
-		<p>En hier volgt een alineatekst.</p>
+		<strong>Dit is de titel van een stuk</strong>
+		<blockquote>En hier volgt een alineatekst.</blockquote>
 	</body>
 	</html>
 
@@ -181,5 +181,22 @@ Voorbeeld van een semantische fout
 !
 
 # Huiswerk
+
+- Op codecademy.com uit de HTML & CSS track: HTML Basics II en Social Networking Profile.
+- Verzamel content voor je website (tenminste 4 pagina's)
+
+In je website moeten minstens vier pagina’s komen. Bedenk welke pagina’s je website gaat
+hebben. Schrijf de content of verzamel de content. LET OP: dat je je bron moet vermelden
+als je de content niet zelf schrijft.
+
+Maak een ‘over mij’ pagina waarin je kort vertelt over jezelf en eventueel contactgegevens
+neerzet.
+
+Maak HTML-pagina’s voor de content. Je hoeft nu nog niet na te denken over vormgeven,
+alleen nog maar het structureren van je content.
+
+Zet de website online op je Oege account.
+
+- Optioneel: Ga verder met de HTML essential training op Lynda.com (via het Lynda Portal van de HvA)
 
 
