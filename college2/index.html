@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Internetstandaarden Hoorcollege week 1</title>
+	<meta name="description" content="" />
+	<meta name="author" content="J.P. Sturkenboom" />
+	<link href="static/css/style.css" rel="stylesheet" />
+
+</head>
+<body class="impress-not-supported">
+
+	<section class="fallback-message">
+		<p>Jouw browser ondersteund bepaalde zaken in impress.js niet dus je krijgt een vereenvoudigde versie van de presentatie te zien.</p>
+		<p>Om deze presentatie te zien zoals hij bedoeld is gebruik je de laatste versie van <b>Chrome</b>, <b>Safari</b> of <b>Firefox</b>.</p>
+	</section>
+
+	<section id="impress" data-transition-duration="1000">
+	<!-- All the possible attributes used to position presentation steps, are:
+	* `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on the canvas in pixels; their default value is 0;
+	* `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z` are exactly the same;
+	* `data-scale` - defines the scale of step element; default value is 1
+	-->
+
+<!-- INTRO -->
+
+	<section id="first" class="step slide" data-x="-2200" data-y="-2200">
+		<h1>Internetstandaarden</h1>
+		<h2>Hoorcollege Blokweek 1</h2>
+		<!-- Canvas tags t.b.v. script van http://www.professorcloud.com -->
+		<canvas id="canvas" width="1024" height="768" style="display: none"></canvas>
+    	<canvas id="canvas3" width="1024" height="768" style="display: none"></canvas>
+   		<canvas id="canvas2" width="1024" height="768">
+   			<p>Jouw browser ondersteund bepaalde zaken met betrekking tot de canvas tag niet dus je krijgt een vereenvoudigde versie van de presentatie te zien.</p>
+			<p>Om deze presentatie te zien zoals hij bedoeld is gebruik je de laatste versie van <b>Chrome</b>, <b>Safari</b> of <b>Firefox</b>.</p>
+		</canvas>
+
+   		<img src="static/images/transparentHTML.png" alt="" />
+	</section>
+
+	<section id="voorstellen" class="step slide light" data-x="-1100" data-y="-2200">
+		<h1>Le moi</h1>
+		<!-- Eigen afbeelding -->
+		<img src="media/images/glitchedMoi.png" alt="" />
+	</section>
+
+	<section id="weekoverzicht" class="step slide" data-x="0" data-y="-2200">
+        <h1>Weekoverzicht Internetstandaarden</h1>
+        <table class="verticalLines">
+            <thead>
+                <tr><th>&nbsp;</th><th>HC</th><th>WG</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Blokweek 1</th>
+                    <td class="lessImportant">CMD AAN!</td>
+                    <td class="lessImportant">CMD AAN!</td>
+                </tr>
+                <tr>
+                    <th>Blokweek 2</th>
+                    <td>DE ZOEKTOCHT NAAR BETEKENIS - Semantiek<br />
+                        HOE MAAK JE HTML OP - Praktisch<br />
+                        DAT IS DOM! - HTML basis<br />
+                        UPLOAD – Publiceren van jouw website<br />
+                    </td>
+                    <td><div>Drieluik oefening analyse<br />
+                        Tools<br />
+                        Eerste website maken en online zetten<br /></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 3</th>
+                    <td>ALGEMEEN BESCHAAFD HTML - Syntax vs. semantiek<br />
+                        FUT (Frequently Used Tags) - Content structuur aangeven<br />
+                        A BOX IN A BOX IN A BOX ... - Block vs. inline vs. invisible<br />
+                        DON'T BELIEVE THE HYPE - nieuwe html5 elementen<br />
+                    </td>
+                    <td>Huiswerk bespreken<br />
+                        Criteria HTML<br />
+                        Onderzoek menustijlen<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 4</th>
+                    <td>DIVIDE ET IMPERA – Scheiding vormgeving, inhoud en gedrag<br />
+                        HOE PAS JE CSS TOE - Praktisch<br />
+                        SELECTA – Hoe selecteer je elementen<br />
+                        MOOIE DINGEN MAKEN - Over kleur en typografie
+                    </td>
+                    <td>FEEDBACKSESSIE HTML<br />
+                        Demo one-column en two-column layout<br />
+                        Wireframes schetsen<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 5</th>
+                    <td>LoVe HAte YOUR LINKS - Pseudo classes<br />
+                        DE LEEGTE IS JE VRIEND - Box model<br />
+                        LEG HET NEER - layout
+                    </td>
+                    <td>Vlakverdeling oefening<br />
+                        Grove vlakverdeling met CSS<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 6</th>
+                    <td>IMAGINE THAT! – invoegen van afbeeldingen<br />
+                        CSS3 FROM HELL – the perks and the prefix hell of CSS3<br />
+                        GOED GEDRAG WORDT BELOOND - Javascript intro
+                    </td>
+                    <td>FEEDBACKSESSIE CSS<br />
+                        jQuery<br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 7</th>
+                    <td>OVER HET SNEL DOCH SLORDIG INZETTEN VAN JAVASCRIPT - JQuery<br />
+                        MANIPULEER JE DOM - Luisteren naar en inspelen op gebeurtenissen<br />
+                    </td>
+                    <td>Werken aan eindopdracht
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 8</th>
+                    <td class="lessImportant">Herfstreces</td>
+                    <td class="lessImportant">Herfstreces</td>
+                </tr>
+                <tr>
+                    <th>Blokweek 9</th>
+                    <td>SYMPOSIUM: STUDENTEN PRESENTEREN<br />
+                        VOORBEREIDING OP TENTAMEN<br />
+                        VEELGESTELDE VRAGEN OVER WEBSITE<br />
+                    </td>
+                    <td><strong>Verplichte werkgroep!</strong><br />
+                        Elkaars website beoordelen.
+                    </td>
+                </tr>
+                <tr>
+                    <th>Blokweek 10</th>
+                    <td><strong>Toetsweek</strong></td>
+                    <td class="lessImportant">Toetsweek - geen lessen</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+	<section id="boek" class="step slide light" data-x="1100" data-y="-2200">
+		<!-- Eigen afbeelding -->
+		<img src="media/images/boek.jpg" alt="HTML &amp; CSS van John Duckett" />
+	</section>
+
+	<section id="ninja" class="step slide lightHTML" data-x="2200" data-y="-2200">
+		<h1>Ninja learning 101</h1>
+		<ol>
+			<li>Maak aantekeningen</li>
+			<li>Verzin zelf studievragen</li>
+			<li>Werk aantekeningen <em>direct</em> uit</li>
+			<li>Print je aantekeningen in puntje 8</li>
+			<li>Sorteer ze per vak</li>
+			<li>Gebruik je downtime om te leren</li>
+		</ol>
+		<!-- Afbeelding van: http://www.woorkz.com/2012/03/26/want-some-ninja-training/ -->
+		<img src="media/images/ninja.png" width="120" alt="Ninja Learning" />
+	</section>
+
+	<!-- Met escape keer je terug naar deze dia -->
+	<section id="overview" class="step" data-x="0" data-y="0" data-scale="6">
+	</section>
+
+<!-- HISTORIE -->
+
+	<section id="historie" class="step slide darkHTML" data-x="-2700" data-y="-1100">
+		<blockquote style="margin-top:1em;margin-left:6em;width: 34em; text-align: justify;">
+			In the Beginning, ARPA created the ARPANET.
+			And the ARPANET was without form and void.<br/><br/>
+
+			And darkness was upon the deep.<br/><br/>
+
+			And the spirit of ARPA moved upon the face of the network and ARPA said, 'Let there be a protocol,' and there was a protocol. And ARPA saw that it was good.<br/><br/>
+
+			And ARPA said, 'Let there be more protocols,' and it was so. And ARPA saw that it was good.<br/><br/>
+
+			And ARPA said, 'Let there be more networks,' and it was so."<br/><br/>
+
+			<cite>Danny Cohen</cite>
+		</blockquote>
+		<img src="the-internet.jpg" style="margin-left: 6em;width:34em;height:16em;" alt="">
+		</div>
+	</section>
+
+	<section id="forster" class="step slide lightHTML" data-x="-2700" data-y="-300">
+		<h1>The Machine Stops - E.M. Forster</h1>
+		<p>"Very well. Let us talk, I will isolate myself. I do not expect anything important will happen for the next five minutes-for I can give you fully five minutes, Kuno. Then I must deliver my lecture on Music during the Australian Period.”</p>
+
+		<p>[...]</p>
+		
+		<p>But it was fully fifteen seconds before the round plate that she held in her hands began to glow. A faint blue light shot across it, darkening to purple, and presently she could see the image of her son, who lived on the other side of the earth, and he could see her.</p>
+		
+		<p>[...]</p>
+		
+		<p>Vashanti’s next move was to turn off the isolation switch, and all the accumulations of the last three minutes burst upon her. The room was filled with the noise of bells, and speaking-tubes. What was the new food like? Could she recommend it? Has she had any ideas lately? Might one tell her one"s own ideas? Would she make an engagement to visit the public nurseries at an early date? - say this day month.</p>
+		
+		<p>[...]</p>
+		
+		<p>The clumsy system of public gatherings had been long since abandoned; neither Vashti nor her audience stirred from their rooms. Seated in her armchair she spoke, while they in their armchairs heard her, fairly well, and saw her, fairly well.</p>
+	</section>
+
+	<section id="1965" class="step slide lightHTML" data-x="-2700" data-y="500">
+		<h1>1965: Eerste verbinding</h1>
+		<img src="1965.png" alt="" style="margin-top:4em;margin-left: 7em;" />
+	</section>
+
+	<section id="1969" class="step slide lightHTML" data-x="-2700" data-y="1300">
+		<h1>1969: Internet telt 4 hosts</h1>
+		<img src="1969.png" alt="" style="margin-top:4em;margin-left: 7em;" />
+	</section>
+
+	<section id="1972" class="step slide lightHTML" data-x="-2700" data-y="2100">
+		<h1>1972: Internet telt ~25 hosts</h1>
+		<img src="1972.png" alt="" style="margin-top:4em;margin-left: 7em;" />
+	</section>
+	
+	<section id="1974" class="step slide lightHTML" data-x="-2700" data-y="2900">
+		<h1>1974: Internet telt ~44 hosts</h1>
+		<img src="1974.png" alt="" style="margin-top:4em;margin-left: 7em;" />
+	</section>
+
+	<section id="1983" class="step slide lightHTML" data-x="-2700" data-y="3700">
+		<h1>1983: Overgang naar TCP/IP</h1>
+		<p>50.000 netwerken op 7 continenten en in de ruimte</p>
+		<ul>
+			<li>MFENET</li>
+			<li>BITNET</li>
+			<li>HEPNET</li>
+			<li style="color:red;">USENET</li>
+			<li>UUNET</li>
+			<li>DECNet</li>
+			<li>SPAN</li>
+			<li>CSNET</li>
+			<li>JANET</li>
+			<li>CO+RE</li>
+		</ul>
+	</section>
+
+	<section id="1989" class="step slide lightHTML" data-x="-2700" data-y="4500">
+		<h1>1989: Tim Berners-Lee @ CERN</h1>
+		<img src="timbernerslee.jpg" style="width:100%;margin-top:2.6em;">
+	</section>
+
+	<section id="elweb" class="step slide lightHTML" data-x="-2700" data-y="5300">
+		<iframe style="width:100%;height:100%;" src="http://internet-map.net/#5-181.03439194246099-80.65937100209122" frameborder="0"></iframe>
+	</section>
+
+	<section id="w3c" class="step slide lightHTML" data-x="-2700" data-y="6100">
+		<h1>1992: World Wide Web Consortium (W3C)</h1>
+		<p>Accessibility (All), Accessible Rich Internet Applications (WAI-ARIA), Authoring Tool Accessibility Guidelines (ATAG), Best Practices for Authoring HTML, CC/PP, Content Transformation, <strong>CSS</strong>, CSS Mobile, DCCI, Declarative Web Applications, Device Description Repository, Device Independence Authoring, <strong>DOM</strong>, DOM events, Efficient XML Interchange, eGovernment, Electronic Commerce Evaluation and Report Language (EARL), Geospatial, GRDDL, Health Care and Life Sciences (Semantic Web), <strong>HTML</strong>, HTML for User Agents, HTTP, InkML, Internationalization (All), Internationalization of Web Architecture, Internationalization of Web Design and Applications, Internationalization of Web Services, Internationalization of XML, Javascript APIs, MathML, Media Access, Mobile Web Applications, Mobile Web Authoring, Mobile Web for Social Development, Multimodal Web Applications, OWL Web Ontology Language, P3P, PICS, Plugins, PNG, POWDER, Quality Assurance (QA) Framework, RDF, RDF Best Practices, RDF Relationship to Other Formats, RDFa, RIF Rule Interchange Format, Security for User Agents, Security for Web Applications, Semantic Annotation for WSDL and XML Schema, Service Modeling Language (SML), SKOS, SMIL, SOAP, SPARQL, Stylesheets in XML, SVG, SVG Tiny, Timed Text, URI, User Agent Accessibility Guidelines (UAAG), Voice, Web and TV, Web Architecture, Web Content Accessibility Guidelines (WCAG), Web Fonts, Web IDL, Web Services Addressing, Web Services Architecture, Web Services Choreography, Web Services Policy, Web Services Resource Access, WebCGM, WICD, Widgets, WSDL, XBL, Xforms, XHTML, XHTML 2, XHTML For Mobile, XHTML Modularization, Xinclude, XKMS, XLink, <strong>XML</strong>, XML Base, XML Canonicalization, XML Design Techniques, XML Encryption, XML Events, XML Fragments, XML Pipeline (XProc), XML Relationship to other formats, XML Schema, XML Signature, XML-binary Optimized Packaging, xml:id, XPath, XPointer, XQuery, XSL-FO, XSLT</p>
+	</section>
+
+	<section id="mosaic" class="step slide lightHTML" data-x="-2700" data-y="6900">
+		<img src="mosaic.png" style="width:100%;margin-top:1em;">
+	</section>
+
+
+<!-- SEMANTIEK -->
+
+	<section id="semantiek" class="step slide darkHTML" data-x="-1600" data-y="-1100">
+		<h1>De zoektocht naar betekenis</h1>
+		<h2>Over semantiek</h2>
+        <div id="vandale">
+    		<ol>
+        		<li>leer van de betekenis van de woorden en woordgroepen
+            	    <ul>
+                	    <li>betekenisverwante termen:<br />
+                    	    hyperoniem: taalkunde<br />
+                	        synoniem(en): betekenisleer
+                        </li>
+                    </ul>
+            	</li>
+            	<li>(filosofie) leer van de interpretatie van formele systemen
+                    <ul>
+                        <li>betekenisverwante termen:<br />
+                            hyperoniem: leer
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+	</section>
+
+	<section class="step slide" data-x="-1600" data-y="-300">
+		<!-- Afbeelding van: http://www.hummandc.nl/wordpress/wp-content/tmp/grotschildering-verhaal.jpg -->
+		<img src="media/images/grotschildering.png" alt="Neanderthaler" />
+	</section>
+
+	<section class="step slide" data-x="-1600" data-y="500">
+		<!-- Afbeelding van: http://www.wallpapergate.com/wallpaper2325.html -->
+		<img src="media/images/bisons.png" alt="Rooksignaal" />
+	</section>
+
+	<section class="step slide" data-x="-1600" data-y="1300">
+		<!-- Afbeelding van: http://wallpaperswide.com/telegraph_poles_near_road-wallpapers.html -->
+		<img src="media/images/morse.png" alt="Morse" />
+	</section>
+
+	<section class="step slide" data-x="-1600" data-y="2100">
+    	<!-- Afbeelding van: http://www.chrisharrison.net/index.php/Visualizations/InternetMap -->
+		<img src="media/images/euroblack.png" alt="Europese verbindingen tussen steden" />
+	</section>
+
+<!-- PRAKTISCH HTML OPMAKEN -->
+
+	<section id="praktisch" class="step slide darkHTML" data-x="-500" data-y="-1100">
+		<h1>Opmaken vs. Markup</h1>
+		<h2>Een overzicht van structuur en semantiek in HTML</h2>
+		<!-- Afbeelding van: http://www.volksuniversiteit.nl/denhelder/Plaatjes/Mensenmaatschappij/makeup.jpg -->
+		<img src="media/images/makeup.jpeg" alt="Opmaak" />
+	</section>
+
+	<section id="basis" class="step slide lightHTML" data-x="-500" data-y="-300">
+		<h1>Basis</h1>
+		<p>&lt;p&gt;...&lt;/p&gt;</p>
+	</section>
+
+	<section id="structuur" class="step slide lightHTML" data-x="-500" data-y="500">
+		<h1>Structuur</h1>
+		<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;Skeleton Code&lt;/title&gt;
+
+	&lt;meta http-equiv="Content-type" content="text/html;charset=UTF-8" /&gt;
+	&lt;meta name="author" content="Justus Sturkenboom @ CMDA" /&gt;
+	&lt;meta name="keywords" content="Skeleton code" /&gt;
+	&lt;meta name="description" content="A basic HTML5 skeleton code" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;!-- Hier de inhoud van de webpagina --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+		</pre>
+	</section>
+
+	<section id="semantiek2" class="step slide lightHTML" data-x="-500" data-y="1300">
+		<h1>Semantiek</h1>
+		<pre>
+[...]
+&lt;body&gt;
+
+	&lt;!-- Hier de inhoud van de webpagina --&gt;
+	&lt;article&gt;
+		&lt;h1&gt;Another space - Richard Smith&lt;/h1&gt;
+
+		&lt;blockquote&gt;Il y a un autre espace, figural. Il faut le
+		supposer enfoui, il ne se donne pas à voir, ni à penser, il
+		s’indique de façon latérale, fugitive au sein des discours
+		et des perceptions, comme ce qui les trouble. Il est
+		l’espace propre au désir, l’enjeu de la lutte que les
+		peintres et les poètes ne cessent de mener contre le retour
+		de l’Ego et du texte. &lt;cite&gt;(Jean-François Lyotard, Discours,
+		Figure: 135)&lt;/cite&gt;&lt;/blockquote&gt;
+
+		&lt;p&gt;[...]&lt;/p&gt;
+	&lt;/article&gt;
+
+&lt;/body&gt;
+[...]
+		</pre>
+	</section>
+
+<!-- Frequently used tags -->
+
+	<section id="fut" class="step slide darkHTML" data-x="600" data-y="-1100">
+		<h1>Frequently Used Tags</h1>
+		<img src="media/images/fut.jpg" alt="geek loveletter" />
+	</section>
+
+	<section id="voorbeeld1" class="step slide lightHTML" data-x="600" data-y="-300">
+		<p class="fullscreen"><a href="voorbeeld1.html" target="_blank">Voorbeeld 1</a></p>
+	</section>
+
+<!-- DOCUMENT OBJECT MODEL -->
+
+	<section id="onderwerp3" class="step slide darkHTML" data-x="1700" data-y="-1100">
+		<h1>Dit is DOM</h1>
+		<h2>Het Document Object Model</h2>
+		<!-- Afbeelding van: http://www.peterpontiac.nl/wp-content/uploads/2012/06/BoomKlootzakfilm.jpg -->
+		<img src="media/images/boom.png" alt="Boom" />
+	</section>
+
+	<section id="nesten" class="step slide lightHTML" data-x="1700" data-y="-300">
+		<h1>Nesten</h1>
+		<img src="media/images/matryoshka.png" alt="Matryoshka poppetjes" />
+	</section>
+
+	<section id="boomstructuur" class="step slide lightHTML" data-x="600" data-y="500">
+		<h1>Nesten in een boom, DOM?</h1>
+		<!-- Afbeelding van: www.complexification.net -->
+		<img src="media/images/boomstructuur.png" alt="Boomstructuur" />
+	</section>
+
+<!-- SAMENVATTING EN HUISWERK -->
+
+	<section class="step slide summaryHTML" data-rotate="90" data-x="2900" data-y="-800">
+		<h1>Samenvatting</h1>
+		<ul>
+			<li>Het internet stamt uit de jaren '60 van de vorige eeuw</li>
+			<li>Tim Berners-Lee bedacht HTML om documenten uit te wisselen</li>
+			<br/>
+			<li>Semantiek gaat over waardetoekenning</li>
+			<li>Er bestaan een hoop standaarden</li>
+			<br />
+			<li>HTML is de standaard voor opmaken (markup) van tekst op internet (hypertext)</li>
+			<li>HTML kent een vaste structuur</li>
+			<li>block vs. inline vs. none</li>
+			<br />
+			<li>HTML moet je netjes nesten</li>
+			<li>Nesten in een boom zijn DOM</li>
+		</ul>
+	</section>
+
+	<section id="studievragen" class="step slide summaryHTML" data-rotate="90" data-x="2900" data-y="300">
+		<h1>Studievragen</h1>
+		<ol>
+
+			<li>Wat doet een validator (bijvoorbeeld de W3CValidation extension in Brackets)?</li>
+			<li>Wat is het verschil tussen syntactische en semantische fouten in je HTML-code?</li>
+			<li>Welke elementen worden gebruikt om een menu in HTML te maken?</li>
+			<li>Noem minstens 12 veelgebruikte HTML elementen?</li>
+			<li>Wat is het verschil tussen block-level en inline elementen?</li>
+			<li>Wat bedoelt Justus met 'macro', 'meso' en 'micro' elementen?</li>
+		</ol>
+	</section>
+
+	<section class="step slide darkNeutral" data-rotate="90" data-x="2900" data-y="1400">
+		<h1>Huiswerk</h1>
+		<p class="fullscreen">Uit HTML &amp; CSS: Lees de hoofdstukken 3 en 4</p>
+	</section>
+
+</section>
+
+<!-- DIT AANZETTEN ALS VOOR STUDENTEN ONLINE KOMT
+<section class="hint">
+	<p>Gebruik de spatie, pijltjes en escape om te navigeren</p>
+</section>
+-->
+
+<!-- Impress is gemaakt door Bartek Szopka	- http://bartaz.github.com/impress.js/#/bored	-->
+<script type="text/javascript" src="static/js/impress.js"></script>
+<script>impress().init();</script>
+<script type="text/javascript" src="static/js/cmdfuncties.js"></script>
+
+<script src="static/js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="static/js/nebula.js" type="text/javascript"></script>
+
+</body>
+</html>
