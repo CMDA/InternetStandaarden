@@ -1,0 +1,3608 @@
+﻿/* Stylesheet voor CMD intranet v1.9 
+** Copyright 2013 Prepped
+*/
+
+/* PAGINA ALGEMEEN */
+#omwrapper {
+	background-image: url('Plaatjes/10jaar-background.png');
+	background-repeat:repeat-x;
+	background-position: left top;
+	width: 100%;
+		
+}
+
+.driekoloms1{width:280px!important;}
+.driekoloms2{width:180px!important;padding-left:30px!important;}
+.driekoloms3{width:180px!important;padding-left:30px!important;}
+
+.tweekoloms1{width:540px!important;padding-right:40px!important;}
+.tweekoloms2{width:220px!important} 
+
+.eenkoloms .ms-WPBodys{width:720px!important}
+
+.ms-WPHeader td{
+	border-bottom-width:0px;
+}
+
+.playbook-breadcrumb {
+padding:9px 0 0 9px;
+display:block;
+}
+
+#navigatiecel, #maincontentcel{
+	vertical-align:top!important;
+}
+
+#maincontent{
+	margin-left:0px!important;padding:0!important;margin:0!important;
+}
+
+div.welcome{
+	padding:0px!important
+}
+
+ .ms-WPBody {
+	font-family: Georgia, serif !important;
+	font-size: 13.1167px;
+	color: #444444;
+	border-bottom-color: rgb(92, 92, 92);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+
+}
+
+.ms-wpTdSpace{
+	display:none;
+}
+/* Verwijderen van border rond web parts? */
+.ms-WPBorder{
+	border:0;
+}
+
+/*Tijdelijke fixes om webpart edit knoppen niet meer in de weg te laten zitten van text*
+img.ms-WPHeaderMenuImg{
+	display:none;
+}
+
+
+.ms-WPHeaderTdMenu{
+width:3px;
+border:0px solid transparent;
+}
+/*tot hier*/
+
+.ms-rtestate-field h1{
+	font-weight:bold;
+	color:#444;
+	font-size:25px;
+	font-family:Georgia,serif;
+	text-align:left;
+}
+
+.ms-rtestate-field{
+	color:#444;
+	font-size:16px;
+	font-family:Georgia,serif;
+	text-align:left;
+	line-height:25px;
+}
+
+
+body{
+	margin: 0px; padding: 0px; border: 0px;
+	font-family: Georgia, serif!important;
+	/* font-size: 13px; */
+	font-size: 13.1167px;
+	color: #444444;
+	/*text-align: center;*/
+}
+
+p {
+	margin: 0px; padding: 0px; border: 0px;
+	line-height: 1.6em;
+}
+
+a, .msWPBody a, .msWPBody a:link, div.picture-component a b{
+	color: #224488;
+	}
+
+div.mededeling a{
+	color: #224488!important;
+	}
+
+
+
+div.picture-component a:visited b {
+	color: #663380;
+}
+
+a:visited {
+	color: #663380;
+}
+
+div.picture-component a:hover b {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 a{
+	text-decoration: none;
+}
+
+#maincontentcel a,#maincontentcel a:link{
+	text-decoration:underline;
+}
+
+/*td.mededelingBericht a,td.mededelingBericht a:link{
+	text-decoration:underline!important;
+}
+
+.ms-WPBody a,.ms-WPBody a:link{
+	text-decoration:underline !important;
+}
+
+a.title{
+	text-decoration:none!important;
+}
+
+a.mededelingTitle{
+	text-decoration:none!important;
+}*/
+
+select {
+	border: 1px #5c5c5c solid;
+	color: #444444;
+	height:20px;
+}
+
+img {
+	border: none;
+}
+.s4-breadcrumb img{
+	display:none;
+	width:0 !important;
+	height:0 !important;
+}
+
+/*a.s4-breadcrumbRootNode{
+	display:none;
+}*/
+
+span.BreadCrumbStyle span{
+	margin-right:5px;
+}
+
+#wrapper {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-left: auto; margin-right: auto;
+	width: 900px;
+	text-align: left;
+}
+
+#navigatie {
+	margin: 0px; padding: 0px; border: 0px;
+	width: 172px!important;
+	float: left!important;
+	text-decoration:none!important;
+	
+}
+
+#navigatie div.ms-pagemargin{
+	background-color:transparent !important;
+}
+
+/*navigatie fixen sp*/
+
+
+.s4-ql ul.root ul > li > a:hover, .s4-ql ul.root > li > a:hover{
+	
+	/*margin: 0px; padding: 0px; border: 0px;*/
+	font-weight: bold!important;
+	font-size: 1.1em !important;
+	color: #444444!important;
+	text-decoration:none!important;
+	}
+	
+.s4-ql ul.root ul > li > a, .s4-ql ul.root ul > li > a.selected{
+	
+	margin: 0px; padding: 0px!important; border: 0px!important;
+	/*padding-left:10px!important;*/
+	font-size: 1.1em !important;
+	color: #444444!important;
+	text-decoration:none!important;
+	background-image:none!important;
+	background-color:white!important;
+	}
+	
+	 .s4-ql ul.root > li > a, .s4-ql ul.root > li > a.selected{
+	
+	margin: 0px; padding: 0px!important; border: 0px!important;
+	font-size: 1.1em !important;
+	margin-left: 0;
+	color: #5c5c5c!important;
+	text-decoration:none!important;
+	background-image:none!important;
+	background-color:white!important;
+	}
+	
+	
+	
+	
+
+ul.root.static > li.static > a.static.menu-item:first-child:before{
+	content:">";
+	position:absolute;
+}
+
+ul.root a.menu-item span.menu-item-text{
+    padding-left:15px!important;
+}
+
+.s4-ql ul.root li:first-child .menu-item-text:hover{
+	font-weight:bold;
+}
+
+.s4-ql ul.root.static ul.static a:before{
+    content:">";
+    position:absolute;
+}
+
+/*span.s4-breadcrumbCurrentNode:before{
+	content:">";
+	padding-right:5px;
+}*/
+span.s4-breadcrumbCurrentNode{
+	margin-left:5px!important;
+}
+
+
+.s4-ql ul.root span.menu-item{
+    margin: 0.67em 0!important; padding: 0px!important; border: 0px!important;
+ 
+    font-weight: bold;
+    font-size: 1.1em!important;
+    color: #5c5c5c!important;
+    text-decoration:none!important;
+}
+
+.s4-ql ul.root > li > .menu-item a:hover {
+	text-decoration:none!important;
+}
+
+
+.s4-ql ul.root ul > li{
+	list-style-position:outside!important;
+	margin:0 0 1px;
+}
+
+.vakpaginasInfo ul a:before{
+	content:">";
+	padding-right:5px;
+}
+
+.vakpaginasInfo ul a{
+	color:#444444;
+	text-decoration:none;
+}
+
+.vakpaginasInfo ul a:hover{
+	font-weight:bold;
+}
+
+.vakpaginasInfo ul{
+	list-style-position:outside;
+	list-style-image:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.vakpaginasInfo ul li{
+	margin:5px 0;
+}
+
+/* HEADER */
+#header {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	padding: 0px;
+	margin-bottom: 2px;
+		width: 899px;
+        	height: 154px;
+	background-image: url('Plaatjes/10jaar-row.png');
+		background-repeat:no-repeat;
+	background-position:right top;
+	
+		text-align: right;
+		float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+.title-logo {
+        display: block;
+        width: 137px;
+        height: 44px;
+        float: left;
+        margin-top:32px;
+        text-decoration:none;
+        		
+
+}
+.title-logo:hover {
+        text-decoration:none;
+}
+#servicenav {
+        position:relative;
+        float:right;
+        height:112px;
+        overflow:visible;
+        padding-top:2px;
+        padding-right:2px;
+        color: rgb(5,105,150);
+}
+
+#inloggen1 {
+	margin: 0px; padding-top: 0px; border: 0px;
+	margin: .2em;
+        display: inline;
+}
+
+#feedback1 {
+	margin: 0px; padding-top: 0px; border: 0px;
+	margin: .2em;
+        display: inline;
+}
+
+
+#services1 {
+	margin: 0px; padding-top: 0px; border: 0px;
+	margin: .2em;
+        display: inline;
+}
+
+
+#feedback1 a {
+	margin: 0px; padding-top: 0px; border: 0px;
+	color: rgb(4,84,120);
+        font-size: 0.95em;
+	text-decoration: none;
+}
+
+#inloggen1 a{
+	margin: 0px; padding-top: 0px; border: 0px;
+	color: rgb(4,84,120);
+        font-size: 0.95em;
+	text-decoration: none;
+}
+
+#services1 a {
+	margin: 0px; padding-top: 0px; border: 0px;
+	color: rgb(4,84,120);
+        font-size: 0.95em;
+	text-decoration: none;
+}
+
+#inloggen1 a:hover {
+	text-decoration: underline;
+}
+
+#feedback1 a:hover {
+	text-decoration: underline;
+}
+
+#services1 a:hover {
+	text-decoration: underline;
+}
+
+#inloggen1 {
+	padding-right: .4em;
+	border-right: 1px solid rgb(5,105,150);
+}
+
+#services1 {
+	padding-right: .4em;
+	border-right: 1px solid rgb(5,105,150);
+}
+
+
+/* ZOEKEN FORMULIER */
+
+
+.srch-sb-results,
+.srch-results{
+	background-color: transparent !important;
+}
+
+#zoeken .s4-search input.ms-sbplain {
+background-image: none;
+background-color: transparent;
+border: 0px !important; 
+padding: 3px 4px;
+width:222px!important;
+height:15px!important;
+ }
+
+#zoeken .ms-sbgo a img {display: none;}
+
+#zoeken .ms-sbgo a {display: block; width: 64px!important; height: 25px!important;}
+
+td.ms-sbcell.ms-sblink {
+	display:none;
+}
+
+#zoeken { /* oorspronkelijk form# searchbox, aangepast voor nieuwe div */
+        display: inline;
+        position: absolute;
+        height:25px;
+        width:298px;
+        top:112px;
+        right:48px;
+        padding:0px;
+        text-align:center;
+        background-image: url('Plaatjes/Zoek.png');
+        
+        z-index:2;
+}
+form#cse-search-box {
+        position: absolute;
+        height:25px;
+        width:298px;
+        top:112px;
+        right:48px;
+        padding:0px;
+        text-align:center;
+        
+        z-index:2;
+}
+
+
+#zoeken input {
+	margin: 0px;
+        padding: 0px;
+	color: #444444;
+        font-size: 1em;
+        font-family: Georgia, serif;
+        margin-left: 0px;
+        float:left;
+}
+
+#zoeken #zoekveld {
+	border: 2px solid rgb(226,0,125);
+        padding: 3px 4px;
+        width:222px;
+        height:15px;
+}
+
+#zoeken #zoekknop {
+        margin: 0px;
+        padding: 2px;
+        width:64px;
+        font-weight: normal;
+        font-size: 1em;
+        border:none;
+        background:rgb(226,0,125);
+        height:25px;
+        color:#fff; 
+}
+.s4-search .srch-gosearchimg{
+	color:#FFF !important;
+}
+/* KRUIMELPAD */
+#kruimelpad {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-left: 174px; margin-bottom: 40px;
+	width: 720px;
+	padding: 5px;
+}
+
+#kruimelpad ul {
+	margin: 0px; padding: 0px; border: 0px;
+	display: inline;
+}
+
+#kruimelpad ul li {
+	margin-left: 0px; padding-left: 2px; border: 0px;
+	display: inline;
+	list-style: none;
+}
+
+#kruimelpad ul.s4-breadcrumbRootNode{
+	position:relative;
+/*	left:-28px;*/
+}
+
+ul.s4-breadcrumb{
+	position:relative;
+	left:-19px;
+	top:-5px;
+}
+
+#kruimelpad ul.s4-breadcrumbRootNode li:before{
+    content:">";
+    margin-left:6px!important;
+}
+
+/*#kruimelpad ul.s4-breadcrumbRootNode>li.s4-breadcrumbCurrentNode:first-child:before{
+    content:"";
+    margin-left:17px!important;
+}
+
+#kruimelpad ul.s4-breadcrumbRootNode>li.s4-breadcrumbNode:first-child:before{
+    content:"";
+    margin-left:6px!important;
+}*/
+
+#kruimelpad a {
+	color: #444444;
+	text-decoration: none;
+}
+
+#kruimelpad a:hover {
+	color: #224488;
+}
+
+/* MENU */
+#menu {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: -8px;
+	width: 160px;
+}
+
+#menu ul {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: 12px; margin-bottom: 12px;
+	list-style: none;
+	font-weight:normal !important;
+}
+
+#menu li {
+	margin: 0px 0px 0px 0px; padding: 0px; border: 0px;
+	margin-top: 5px; margin-bottom: 5px;
+}
+
+#menu h1 {
+	margin: 0px; padding: 0px; border: 0px;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #5c5c5c;
+}
+
+#menu a {
+	color: #444444;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#organisatie2 {
+        display: none;
+}
+
+
+/* FOOTER */
+#footer {
+	margin: 0px; padding: 0px; border: 0px;
+	border-top: 1px solid #5c5c5c;
+	font-size: 0.85em;
+	clear: both;
+}
+
+#footer div {
+	margin: 0px; padding: 0px; border: 0px;
+	margin: .2em;
+	margin-top: .4em;
+	float: left;
+}
+
+#footer a {
+	margin: 0px; padding: 0px; border: 0px;
+	color: #5c5c5c;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer .datum {
+	padding-right: .4em;
+	border-right: 1px solid #999999;
+}
+
+#footer #rss2 {
+	padding-right: .4em;
+	border-right: 1px solid #999999;
+}
+
+#footer #services2 {
+	padding-right: .4em;
+	border-right: 1px solid #999999;
+}
+
+#footer #lastedited {
+	padding-right: .4em;
+	border-right: 1px solid #999999;
+}
+
+#footer #copyright {
+	padding-right: .4em;
+	border-right: 1px solid #999999;
+}
+
+/* EXTRA DIV's */
+#extraDiv6 {
+	display: none;
+}
+
+#extraDiv5 {
+	display: none;
+}
+
+#extraDiv4 {
+	display: none;
+}
+
+#extraDiv3 {
+	display: none;
+}
+
+#extraDiv2 {
+	display: none;
+}
+
+#extraDiv1 {
+	display: none;
+}
+
+/********************************************************************
+** PAGINA SPECIFIEKE STIJLEN
+********************************************************************/
+
+/* VOORPAGINA KOLOMMEN: MEDEDELINGEN, UITAGENDA, AFWEZIG, GEVRAAGD, BANNER*/
+#mededelingen {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-bottom: 30px; margin-left: 20px;
+    border-bottom: #5c5c5c 1px solid;
+	width: 280px;
+	float: left;
+}
+
+#mededelingen form, #ipvform {
+	float: left;
+}
+#mededelingen select, #ipvform select {
+	margin-top: 2px;
+	margin-bottom: 1.6em;
+	color: #444444;
+}
+
+#filters a {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-top: 2px; 	margin-left: 2px;
+		display: block;
+		float: left;
+		width: 20px;
+		height: 20px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -160px -78px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#filters a span {
+	display: none;
+}
+
+#uitagenda,
+#afwezig,
+#im,
+#gevraagd,
+#highlight,
+.ms-WPBody {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-bottom: 20px; border-bottom: #5c5c5c 1px solid;
+	/*width: 180px;*/
+	float: left;
+}
+
+#banners {
+       margin-bottom: 12px;
+       margin-left: 40px;
+       width: 180px;
+       float: left;
+}
+
+.banner {
+       margin-bottom: 2px;
+       }
+
+#uitagenda h1, #mededelingen h1, #im h1,#afwezig h1  ,#gevraagd h1 ,
+#highlight h1, .ms-WPBody h1, h1.mededelingTitle{
+	margin: 0px; padding: 0px; border: 0px;
+	font-size: 1.4em;
+	color: #444444;
+}
+
+
+
+
+#highlight h1 a, #mededelingen h1 a, #gevraagd h1 a, #afwezig h1 a, #uitagenda h1 a, .ms-WPBody h1 a  {
+	color: #444444;
+}
+
+
+
+#mededelingen h1, .ms-WPTitle, ms-WPTitle a,.ms-WPHeader a{
+	margin: 0px; padding: 0px; border: 0px;
+	color: #444444!important;
+	font-family: Georgia, serif!important;
+	font-weight:bold;
+}
+
+.ms-WPTitle{
+
+font-size:18.3667px;
+}
+
+
+
+#mededelingen h2,
+#uitagenda h2,
+#afwezig h2,
+#gevraagd h2,
+#highlight h2,
+.agendaItem h2,
+.ms-WPBody h2
+ {
+	margin: 0px; padding: 0px; border: 0px;
+	font-weight: normal;
+	color: #444444;
+    line-height: 1.4em;
+    font-family:Georgia, serif;
+}
+
+
+#uitagenda p.intro,
+#afwezig p.intro,
+#gevraagd p.intro,
+#highlight p.intro,
+.ms-WPBody p.intro{
+	margin: 0px; padding: 0px; border: 0px;
+	margin-bottom: 1.2em;
+	font-size: 0.85em;
+	font-weight: normal;
+	color: #5c5c5c;
+}
+
+
+#mededelingen a.leesmeer,
+#uitagenda a.leesmeer,
+#afwezig  a.leesmeer,
+#gevraagd a.leesmeer,
+#highlight a.leesmeer ,
+.ms-WPBody a.leesmeer{
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 10px;
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: #224488;
+	font-size: 0.85em;
+	font-weight: bold;
+}
+
+#im p {
+       padding-bottom: 9px;
+}
+
+#mededelingen a.leesmeer:hover,
+#uitagenda a.leesmeer:hover,
+#afwezig  a.leesmeer:hover,
+#gevraagd a.leesmeer:hover,
+#highlight a.leesmeer:hover, 
+.ms-WPBody a.leesmeer:hover {
+	border-bottom: 1px dotted #224488;
+}
+
+#mededelingen a.leesmeer:visited,
+#uitagenda a.leesmeer:visited ,
+#afwezig  a.leesmeer:visited ,
+#gevraagd a.leesmeer:visited,
+#highlight a.leesmeer:visited,
+.ms-WPBody a.leesmeer:visited{
+	color: #663380;
+}
+
+
+div.mededeling,
+div.agendaItem,
+div.gezochtGevraagd {
+	margin: 0px; padding: 0em; border: 0px;
+	margin-bottom: 1.2em; clear: both;
+}
+
+
+div.mededeling h2,
+div.agendaItem h2,
+div.gezochtGevraagd h2,
+div.mededeling h2 a,
+div.agendaItem h2 a,
+div.gezochtGevraagd h2 a ,
+.ms-WPBody h2 a ,
+.ms-WPBody h2 a:link,
+.ms-WPBody h2{
+	margin: 0px; padding: 0px; border: 0px;
+	font-size: 13.1167px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #444444!important;
+}
+
+
+
+
+
+div.mededeling h2 a:hover,
+div.agendaItem h2 a:hover,
+div.gezochtGevraagd h2 a:hover  {
+	text-decoration: underline;
+}
+
+div.agendaItem h2 a {
+        color: #224488;
+}
+
+div.agendaItem h2 a:visited {
+	color: #663380;
+}
+
+div.mededeling p {
+	color: #5c5c5c;
+}
+
+div.agendaItem p {
+	font-weight: bold;
+	font-size: .85em;
+        color: #5c5c5c;
+}
+
+
+
+#gevraagd span.datum,
+#afwezig span.datum,
+#uitagenda span.datum,
+#mededelingen span.datum,
+#gevraagd span.auteur,
+#afwezig span.auteur,
+#uitagenda span.auteur,
+#mededelingen span.auteur,
+.ms-WPBody span.auteur,
+.ms-WPBody span.datum,
+td.mededelingDatum {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: 2px; margin-bottom: 2px;
+	font-size: 11.15px!important;
+	color: #999999!important;
+	font-weight: bold;
+	font-family:Georgia, serif;
+}
+
+#gevraagd span.datum,
+#afwezig span.datum,
+#uitagenda span.datum,
+#mededelingen span.datum, 
+.ms-WPBody span.datum {
+	margin: 2px 2px 0 2px;
+	padding-right: 5px;
+	border-right: 1px solid #999999;
+	font-family:Georgia,serif !important;
+	font-size:0.85em;
+}
+
+.link-item a:link,
+.gezochtOmschrijving a:link,
+.description{
+	font-family:Georgia,serif !important;	
+	font-size:1.1em;
+	line-height:1.6em;
+	
+}
+.link-item a:link,
+.gezochtOmschrijving a:link,
+.wrapper body a:link,
+.wrapper body a{
+	border-bottom:1px dotted #224488;
+}
+
+.link-item a:link,
+.link-item a,
+.gezochtOmschrijving a:link,
+.uitagenda-item h2 a:link,
+.uitagenda-item h2 a{
+	color:#224488 !important;
+}
+
+
+.description,
+.gezochtOmschrijving a:link{
+	color:#5c5c5c !important;
+}
+
+.mededeling-item .item,
+.uitagenda-item .item,
+.gezocht-item .item,
+.afwezigenZieken-item .item{
+	padding-left:0 !important;
+}
+
+.afwezigenZieken-item span.datum{
+	border:0;
+}
+
+.gezochtOmschrijving a{
+	color:#4c4c4c !important;
+}
+
+
+span.hasPipe {
+	padding-left: 4px;
+
+}
+
+.dfwp-item{
+	margin-bottom:1.2em;
+}
+.dfwp-item .title a{
+	color:#444444;
+	font-size:1em;
+	font-weight:bold;
+	line-height:1.4em;
+}
+
+.dfwp-item .formatted-date{
+	color:#999999;
+	font-size:0.85em;
+	font-weight:bold;
+	padding:0 5px 0 0;
+	margin:2px 2px 0 0;
+	/*border-right:1px solid #999999;*/
+}
+
+.dfwp-item .description{
+	color:#5c5c5c;
+	font-size:0.82em;
+	padding:0;
+	margin:0;
+	line-height:1.6em;
+	font-family:Georgia, serif;
+	text-align:left;
+}
+
+.vakinfo{
+	margin:1.8em 0;
+	padding:0;
+	border-left:0;
+	border-right:0;
+	border-top: 1px solid #5c5c5c;
+	border-bottom: 1px solid #5c5c5c;
+	background-color:#e5e5e5;
+}
+
+.vakinfo h3.first{
+	border-top:0;
+	padding-top:0;
+}
+
+.vakinfo h3{
+	margin: 15px 10px 0;
+	font-size:1em;
+	font-weight:normal;
+	line-height:1.6em;
+	border-top:#cccccc 1px dashed;
+	padding-top:10px;
+}
+
+.vakinfo p{
+	margin: 0 0 10px 10px;
+	font-size:1em;
+	font-weight:bold;
+	color:#5c5c5c;
+}
+
+
+/* EENKOLOMS PAGINA:  */
+.eenkoloms .ms-WPBody {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-bottom: 1.2em;
+	width: 720px;
+	/*float: right;*/
+	color: #444444;
+}
+
+.eenkoloms .ms-WPBody span.datumLocatie {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 4px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody span.specialisatie {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 4px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody span.studiefase {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 4px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody span.datum {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 4px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody span.description {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 4px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody span.auteur {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-right: 4px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody span.hasPipe{
+	padding-left: 4px;
+	border-left: #999999 1px solid;
+}
+
+
+
+
+
+.eenkoloms .ms-WPBody div.gezochtGevraagd {
+	margin: 0px; padding: 1.2em 0em; border: 0px; clear: both;
+}
+
+
+
+
+.eenkoloms .ms-WPBody div.agendaItem {
+	margin: 0px; padding: 1.2em 0em; border: 0px; clear: both;
+}
+
+
+
+
+.eenkoloms .ms-WPBody div.mededeling {
+	margin: 0px; padding: 1.2em 0em; border: 0px; clear: both;
+}
+
+.eenkoloms .ms-WPBody h1, .eenkoloms .ms-WPTitle h1 {
+	margin: 0px; padding: 0px; border: 0px;
+	font-size: 1.8em
+}
+	
+.eenkoloms .ms-WPBody h2 {
+	margin: 0px; padding: 0px; border: 0px;
+	font-size: 1.4em;
+	color: #5c5c5c;
+}
+
+.eenkoloms .ms-WPBody div.gezochtGevraagd h2 {
+	font-size: 1.4em;
+}
+
+.eenkoloms .ms-WPBody div.agendaItem h2 {
+	font-size: 1.4em;
+}
+
+.eenkoloms .ms-WPBody div.mededeling h2 {
+	font-size: 1.4em;
+}
+
+.eenkoloms .ms-WPBody h4 {
+	margin: 0px; padding: 0px; border: 0px;
+	font-size: 1.2em;
+	margin: 0px;
+	padding: 0px;
+}
+
+.eenkoloms .ms-WPBody #gevraagdoverzicht h4 {
+	
+}
+	
+
+.eenkoloms .ms-WPBody p {
+        line-height: 1.6em;
+        font-size: 1.2em;
+}
+
+.eenkoloms .ms-WPBody p + p {
+	margin-top: .8em;
+}
+
+.eenkoloms .ms-WPBody div.agendaItem p {
+        font-weight: normal;
+        font-size: 1.2em;
+}
+
+.eenkoloms .ms-WPBody div.agendaItem h2 a {
+        color: #444444;
+}
+
+.eenkoloms .ms-WPBody #filters {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: .2em; margin-bottom: 3em;
+}
+.eenkoloms .ms-WPBody #filters a {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-left: 2px;
+		display: block;
+		float: left;
+		width: 20px;
+		height: 20px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -160px -78px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.eenkoloms .ms-WPBody #filters a span {
+	display: none;
+}
+
+.eenkoloms .ms-WPBody #filters form {
+	float: left;
+}
+
+ /* TABELLEN VOOR VAKPAGINA'S */
+.eenkoloms .ms-WPBody table.jaarOverzichtLegenda {
+	margin: 0;
+	padding: 0;
+	color: #444;
+	text-align: center;
+}
+.eenkoloms .ms-WPBody table.jaarOverzichtLegenda td.vak{
+	width: 60px;
+	background-color: #eee;
+	border: #aaa solid 1px;
+	border-right: 0;
+	padding:4px;
+}.eenkoloms .ms-WPBody table.jaarOverzichtLegenda td.profilering{
+	width: 60px;
+	background-color: #ccc;
+	border: #aaa solid 1px;
+	padding:4px;
+}
+
+
+.eenkoloms .ms-WPBody table.jaarOverzicht {
+	margin: 10px 0;
+	padding: 0; 
+	border: 0;
+	border-top: #aaa 1px solid;
+	border-bottom: #aaa 1px solid;
+	border-left: #aaa 1px solid;
+	color: #aaa;
+	border: 0;
+	text-align: center;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht th {
+	margin: 0px; 
+	padding: 6px;
+	border: 0px;
+	border-right: #aaa 1px solid;
+	color: #fff;
+	background-color: #aaa;
+	font-weight: bold;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht th a{
+	color: #fff;
+	border-bottom: 1px dotted #224488;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht th a:hover{
+	color: #333;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td {
+	margin: 0px; padding: 3px; border: 0px;
+	padding: 4px 0;
+	border-top: #aaa 1px solid;
+	border-right: #aaa 1px solid;
+	background-color: #eee;
+	vertical-align: middle;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td a{
+	color: #444;
+	border-bottom: #444 dotted 1px;
+	text-decoration: none;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td a:hover{
+	color: #000;
+	border-bottom: #000 solid 1px;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td.slc{
+	height: 10px; 
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td.project{
+	height: 50px;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td.vak{
+	height: 50px; 
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td.studieregie{
+	height: 10px; 
+}
+
+.eenkoloms .ms-WPBody table#V1 td {
+	padding-top: .4em; padding-bottom: .4em;
+}
+
+.eenkoloms .ms-WPBody table#V1 .noBackground  {
+	margin: 0px; padding: 0px; border: 0px;
+	background-color: transparent;
+	line-height: .2em;
+        padding-top: 0em; padding-bottom: 0em;
+}
+
+.eenkoloms .ms-WPBody table.jaarOverzicht .noBackground  {
+	margin: 0px; padding: 0px; border: 0px;
+	background-color: transparent;
+	line-height: .2em;
+        padding-top: 0em; padding-bottom: 0em;
+}
+
+.eenkoloms .ms-WPBody table.jaarOverzicht .noBorder {
+	border-top: 0px;
+}
+
+.eenkoloms .ms-WPBody table#V1 .footnote {
+	line-height: 1.6em;
+	text-align: left;
+}
+
+.eenkoloms .ms-WPBody table.jaarOverzicht .footnote {
+	line-height: 1.6em;
+	text-align: left;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht .rijlabel {
+	text-align: right;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht td.profilering{
+	background-color: #ccc;
+	padding:0;
+}
+.eenkoloms .ms-WPBody table.jaarOverzicht .profileringsvak{
+	border-bottom: #fff 1px solid;
+	padding:6px 0;
+}
+/* FEEDBACK FORM */
+.eenkoloms .ms-WPBody #feedbackFormulier {
+	margin: 0px; padding: 0px; border: 0px;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier form {
+	margin-top: 1.8em;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier ol {
+	margin: 0px; padding: 0px; border: 0px;
+	list-style: none;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier label {
+	margin: 0px; padding: 0px; border: 0px;
+	display: block;
+	clear: both;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier span.hint {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-bottom: 1.2em;
+	display: block;
+	color: #5c5c5c;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier textarea{
+	margin: 2px; padding: 2px;
+	border: #5c5c5c 1px solid;
+	width: 320px;
+	color: #333333;
+	font-size: 1.2em;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier input{
+	margin: 2px; padding: 2px;
+	border: #5c5c5c 1px solid;
+	width: 320px;
+	color: #333333;
+	font-size: 1.2em;
+}
+.eenkoloms .ms-WPBody #feedbackFormulier textarea {
+	width: 494px;
+	height: 12em;
+}
+.eenkoloms .ms-WPBody #feedbackFormulier #submit {
+	margin: 0px; padding: 5px; border: #339900 1px solid;
+	margin-top: 1em; margin-left: 346px;
+	padding-right: 10px; padding-left: 10px;
+	width: 8em;
+	color: #339900;
+	background: #99ff66;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody #feedbackFormulier p.fout {
+	margin: 0px; padding: 5px; border: 0px;
+	margin-top: 20px; padding-right: 10px; padding-left: 10px;
+	width: 480px;
+	line-height: 1.6em;
+	background-color: #ffffcc;
+	color: #cc0033;
+	font-weight: bold;
+	font-size: 1em;
+	display: none;
+}
+
+.eenkoloms .ms-WPBody span.viernulvier {
+	font-size: 2.5em;
+}
+
+/* TWEEKOLOMS (VAK) PAGINA */
+.tweekoloms1 .ms-WPBody {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-bottom: 30px; margin-left: 20px;
+	width: 500px;
+	float: left;
+}
+
+.tweekoloms1 .ms-WPBody h1 {
+	margin: 0px; padding: 0px; border: 0px;
+	color: #444444;
+	font-size: 1.8em;
+}
+
+
+.tweekoloms1 .ms-WPBody p {
+        color: #444444;
+	font-size: 1.2em;
+}
+
+.tweekoloms1 .ms-WPBody p + p {
+	margin-top: .8em;
+}
+
+.tweekoloms1 .ms-WPBody .picture-component + .picture-component {
+	margin-top: 1em;
+}
+
+.tweekoloms2 .ms-WPBody {
+	margin: 0px; padding: 0px; border: 0px;
+	width: 180px;
+	float: right;
+	color: #444444;
+}
+
+.tweekoloms2 .ms-WPBody div.vakinfo {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: 1.8em; margin-bottom: 1.8em;
+	border-top: #5c5c5c 1px solid;
+	border-bottom: #5c5c5c 1px solid;
+	background: #e5e5e5;
+}
+
+.tweekoloms2 .ms-WPBody ul {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: .2em;
+	list-style: none;
+}
+
+.tweekoloms2 .ms-WPBody ul li {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: 5px; margin-bottom: 5px;
+}
+
+.tweekoloms2 .ms-WPBody ul li.active {
+	font-weight: bold
+}
+
+.tweekoloms2 .ms-WPBody ul a {
+	text-decoration: none;
+	color: #444444;
+}
+
+.tweekoloms2 .ms-WPBody ul a:hover {
+	text-decoration: none;
+	color: #224488;
+	font-weight: bold;
+}
+
+.tweekoloms2 .ms-WPBody h1 {
+	margin: 0px; padding: 0px; border: 0px;
+	font-size: 1.4em;
+}
+
+.tweekoloms2 .ms-WPBody h2 {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-top: 15px; margin-left: 10px; margin-right: 10px;
+	padding-top: 10px;
+	border-top: #cccccc 1px dashed;
+	font-size: 1em;
+	font-weight: normal;
+}
+.tweekoloms2 .ms-WPBody h2.first {
+	padding-top: 0px;
+	border-top: 0px;
+}
+.tweekoloms2 .ms-WPBody p {
+	margin: 0px; padding: 0px; border: 0px;
+	margin-left: 10px; margin-bottom: 10px;
+	font-weight: bold;
+	color: #5c5c5c;
+}
+
+/* FILE COMPONENT */
+.link-component {
+       margin: 0px; padding: 0px; border: 0px;
+       margin-left: 1.2em;
+       margin-top: 0.8em;
+       line-height: 1.6em;
+}
+
+.file-component {
+       margin: 0px; padding: 0px; border: 0px;
+       margin-left: 1.2em;
+       margin-top: 0.8em;
+       line-height: 1.6em;
+}
+
+.link-component span.icon {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.icon {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconKEY {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconkey {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPSD {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconpsd {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconAI {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconai {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconEPS {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconeps {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMSZ {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmsz {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmobileconfig {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMXML {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmxml {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconAS {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconas {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMXP {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmxp {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconAIF {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconaif {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconWAV {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconwav {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMPG {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmpg {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconWMV {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconwmv {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMP4 {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmp4 {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMP3 {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmp3 {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconFLV {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconflv {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconAVI {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconavi {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconMOV {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconmov {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconEXE {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconexe {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconDMG {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.icondmg {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconRAR {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconrar {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconZIP {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconzip {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPNG {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconpng {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconBMP {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconbmp {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconGIF {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.icongif {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconJPG {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconjpg {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconSWF {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconswf {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPDF {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconpdf {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconVSD {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconvsd {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconXLSX {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconxlsx {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconXLS {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconxls {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconDOCX {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.icondocx {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconDOC {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.icondoc {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPPSX {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconppsx {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPPS {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconpps {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPPTX {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconpptx {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconpPPT {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconppt {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	padding: 0px;
+	margin-right: .2em;
+		width: 16px; 	height: 16px;
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -128px -123px;
+		display: block;
+		float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.file-component span.iconPPSX  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconppsx  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconPPS  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconpps  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconPPTX  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconpptx  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconPPT  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconppt  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat 0px -123px;
+}
+
+.file-component span.iconDOCX  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -16px -123px;
+}
+
+.file-component span.icondocx  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -16px -123px;
+}
+
+.file-component span.iconDOC  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -16px -123px;
+}
+
+.file-component span.icondoc  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -16px -123px;
+}
+
+.file-component span.iconXLSX  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -32px -123px;
+}
+
+.file-component span.iconxlsx  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -32px -123px;
+}
+
+.file-component span.iconXLS  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -32px -123px;
+}
+
+.file-component span.iconxls  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -32px -123px;
+}
+
+.file-component span.iconVSD {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -48px -123px;
+}
+
+.file-component span.iconvsd {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -48px -123px;
+}
+
+.file-component span.iconPDF  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -64px -123px;
+}
+
+.file-component span.iconpdf  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -64px -123px;
+}
+
+.file-component span.iconSWF {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -80px -123px;
+}
+
+.file-component span.iconswf {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -80px -123px;
+}
+
+.file-component span.iconGIF {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.icongif {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconBMP {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconbmp {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconPNG {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconpng {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconJPG {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconjpg {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -96px -123px;
+}
+
+.file-component span.iconRAR {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -112px -123px;
+}
+
+.file-component span.iconrar {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -112px -123px;
+}
+
+.file-component span.iconZIP {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -112px -123px;
+}
+
+.file-component span.iconzip {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -112px -123px;
+}
+
+.file-component span.iconDMG {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -272px -123px;
+}
+
+.file-component span.icondmg {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -272px -123px;
+}
+.file-component span.iconEXE {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -288px -123px;
+}
+.file-component span.iconexe {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -288px -123px;
+}
+.file-component span.iconAIF  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconaif  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconWAV  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconwav  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconMPG  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconmpg  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconWMV  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconwmv  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconMP4  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconmp4  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconMP3  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconmp3  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconFLV  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconflv  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconAVI  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconavi  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconMOV  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconmov  {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -256px -123px;
+}
+.file-component span.iconMSZ {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -320px -123px;
+}
+.file-component span.iconmsz {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -320px -123px;
+}
+.file-component span.iconAS {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -320px -123px;
+}
+.file-component span.iconas {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -320px -123px;
+}
+.file-component span.iconmobileconfig {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -304px -123px;
+}
+.file-component span.iconMXML {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -304px -123px;
+}
+.file-component span.iconmxml {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -304px -123px;
+}
+.file-component span.iconEPS {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -336px -123px;
+}
+.file-component span.iconeps {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -336px -123px;
+}
+.file-component span.iconAI {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -352px -123px;
+}
+.file-component span.iconai {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -352px -123px;
+}
+.file-component span.iconPSD {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -368px -123px;
+}
+.file-component span.iconpsd {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -368px -123px;
+}
+.file-component span.iconKEY {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -384px -123px;
+}
+.file-component span.iconkey {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -384px -123px;
+}
+.link-component .info {
+	font-size: 0.8em;
+	color: #5c5c5c;
+}
+
+.file-component .info {
+	font-size: 0.8em;
+	color: #5c5c5c;
+}
+
+.link-component a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.file-component a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.link-component a:hover {
+	color: #224488;
+	text-decoration: underline;
+}
+
+
+.file-component a:hover .info {
+	color: #224488;
+	text-decoration: underline;
+}
+
+
+.file-component a:hover {
+	color: #224488;
+	text-decoration: underline;
+}
+
+
+.link-component span.icon {
+	background: url('Plaatjes/iamIntranetSprite.jpg') no-repeat -144px -123px;
+}
+
+
+.tweekoloms1 .ms-WPBody ol {
+    margin: 0px; padding: 0px; border: 0px;
+    margin-left: 2em; margin-bottom: 1em; margin-top: 1em;
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
+.tweekoloms1 .ms-WPBody ul {
+    margin: 0px; padding: 0px; border: 0px;
+    margin-left: 2em; margin-bottom: 1em; margin-top: 1em;
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
+.eenkoloms .ms-WPBody ol {
+    margin: 0px; padding: 0px; border: 0px;
+    margin-left: 2em; margin-bottom: 1em; margin-top: 1em;
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
+.eenkoloms .ms-WPBody ul {
+    margin: 0px; padding: 0px; border: 0px;
+    margin-left: 2em; margin-bottom: 1em; margin-top: 1em;
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+/* toevoegingen van sanne */
+
+.tweekoloms1 .ms-WPBody li li{
+    font-size: 1em;
+}
+
+.eenkoloms .ms-WPBody li li{
+    font-size: 1em;
+}
+
+.eenkoloms .ms-WPBody table {
+    width: 100%;
+}
+
+td.noBackground {
+    height: 3px;
+}
+
+.component-spacing { display: none; }
+
+/* table kolomEen */
+
+.tweekoloms1 .ms-WPBody table.planningstabel {
+   margin: 0px;
+   padding: 0px;
+   color: #444444;
+   width: 100%;
+}
+
+.tweekoloms1 .ms-WPBody table.planningstabel th {
+   margin: 0px; padding: 3px; border: 0px;
+   border-right: #c0c0c0 1px solid;
+   border-left: #c0c0c0 1px solid;
+   color: #ffffff;
+   background-color: #999999;
+   font-weight: bold;
+   text-align: center;
+}
+
+.tweekoloms1 .ms-WPBody table.planningstabel td {
+   margin: 0px; padding: 3px; border: 0px;
+   padding-top: .6em; padding-bottom: .6em;
+   border-right: #c0c0c0 1px solid;
+   border-left: #c0c0c0 1px solid;
+   background-color: #e5e5e5;
+   vertical-align: middle;
+   text-align: center;
+}
+
+/* table medewerker */
+
+.eenkoloms .ms-WPBody table.tbl_comp_000048894fce_00000003e9_6ec7 {
+   margin: 0px;
+   padding: 0px;
+   color: #444444;
+   width: 100%;
+}
+
+.eenkoloms .ms-WPBody .docenten table td.even
+ {
+   margin: 0px; padding: 3px; border: 0px;
+   padding-top: .6em; padding-bottom: .6em;
+   border-bottom: #c0c0c0 1px solid;
+   border-right: #c0c0c0 1px solid;
+   background-color: #e5e5e5;
+   vertical-align: middle;
+   text-align: left;
+}
+
+.eenkoloms .ms-WPBody .docenten table td.odd
+ {
+   margin: 0px; padding: 3px; border: 0px;
+   padding-top: .6em; padding-bottom: .6em;
+   border-bottom: #c0c0c0 1px solid;
+   border-right: #c0c0c0 1px solid;
+   background-color: #e5e5e5;
+   vertical-align: middle;
+   text-align: left;
+}
+
+.eenkoloms .ms-WPBody .docenten table td.first
+ {
+   margin: 0px; padding: 3px; border: 0px;
+   padding-top: .6em; padding-bottom: .6em;
+   border-bottom: #c0c0c0 1px solid;
+   border-right: #c0c0c0 1px solid;
+   background-color: #e5e5e5;
+   vertical-align: middle;
+   text-align: left;
+}
+
+.eenkoloms .ms-WPBody table td.first {
+   border-left: #c0c0c0 1px solid;
+}
+
+.eenkoloms .ms-WPBody .docenten table tr.first td.even
+ {
+   border-bottom: none;
+   color: #ffffff;
+   background-color: #999999;
+   font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody .docenten table tr.first td.odd
+ {
+   border-bottom: none;
+   color: #ffffff;
+   background-color: #999999;
+   font-weight: bold;
+}
+
+.eenkoloms .ms-WPBody .docenten table tr.first td.first
+ {
+   border-bottom: none;
+   color: #ffffff;
+   background-color: #999999;
+   font-weight: bold;
+}
+
+h1 span.viernuliks {
+   font-size: 2.5em; 
+}
+
+/* edit link (temp) */
+a.edit {
+  display: none;
+}
+
+.eenkoloms .ms-WPBody div.picture-component  {
+  padding-top: 2em;
+}
+
+.tweekoloms1 .ms-WPBody div.picture-component  {
+  padding-top: 2em;
+}
+
+.eenkoloms .ms-WPBody span.auteur + div.picture-component {
+  padding-top: 0px;
+}
+
+.tweekoloms1 .ms-WPBody span.auteur + div.picture-component {
+  padding-top: 0px;
+}
+
+.eenkoloms .ms-WPBody div.picture-component:first-child {
+  padding-top: 0px;
+}
+
+.tweekoloms1 .ms-WPBody div.picture-component:first-child {
+  padding-top: 0px;
+}
+
+div.picture-component div.body ul {
+  font-size: 1em;
+  line-height: 20.9833px;
+}
+
+div.picture-component div.body ol {
+  font-size: 1em;
+  line-height: 20.9833px;
+}
+
+div.picture-component div.body p {
+  font-size: 1em;
+  line-height: 20.9833px;
+}
+
+div.picture-component div.body {
+  font-size: 1.2em;
+  line-height: 20.9833px;
+  color: #444444;
+}
+
+hr {
+  display: none;
+}
+
+#afwezig div.picture-component div.body {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: bold;
+  color: #444444;
+}
+
+p.mededelingfout {
+	margin: 0px; padding: 5px; border: 0px;
+	margin-top: 20px; padding-right: 10px; padding-left: 10px;
+	line-height: 1.6em;
+	background-color: #ffffcc;
+	color: #cc0033;
+	font-weight: bold;
+	font-size: 1em;
+        clear: both;
+}
+
+
+
+/* CMDA UXD programma */
+
+.cmda-programma h2 {
+	padding:0;
+	margin:0;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	line-height:1em;
+}
+
+.cmda-programma a {
+	padding:0;
+	margin:0;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	line-height:1em;
+}
+
+.cmda-programma p {
+	padding:0;
+	margin:0;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	line-height:1em;
+}
+
+.cmda-programma ul {
+	padding:0;
+	margin:0;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	line-height:1em;
+}
+
+.cmda-programma li {
+	padding:0;
+	margin:0;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	line-height:1em;
+}
+
+.cmda-programma #courses {
+        position:relative;
+        margin-top:1em;
+}
+
+.cmda-programma li {
+	list-style:none;
+}
+
+/* weeks */
+.weeks ul {
+	padding:0 0.7em;
+        overflow:auto;
+}
+.weeks li {
+	float:left;
+	padding:1em 0 2em;
+}
+
+.weeks li p {
+	border-right:solid 1px #aaa;
+	padding:0;
+	text-align:center;
+        overflow:hidden;
+}
+
+.weeks li:first-child p {
+	border-left:solid 1px #aaa;
+}
+
+/* courses */
+.courses {
+	clear:both;
+        background:#ccc;
+	margin-bottom:13px;
+        overflow:hidden;
+}
+
+.courses > ul {
+	padding:0 0.7em;
+}
+
+.courses > ul > li {
+	padding:11px 0;
+}
+
+.courses > ul > li > a {
+	margin:0 0.1em;
+	padding:9px 0.4em;
+	background:#aaa;
+	overflow:hidden;
+
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+
+.courses > ul > li > p {
+	margin:0 0.1em;
+	padding:9px 0.4em;
+	background:#aaa;
+	overflow:hidden;
+
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+
+.courses > ul > li > a {
+	display:block;
+	text-decoration:none;
+	color:#333;
+}
+
+.courses > ul > li > .ms-WPTitle {
+        background:#444;
+	color:#fff;
+}
+
+.courses > ul > li > p.her {
+	color:#666;
+	background:#bbb url('Plaatjes/scheef.png') left top;
+}
+
+.courses .ects {
+	font-size:0.75em;
+}
+
+
+/* DER ANPFIFF */
+#anpfiff {
+	width:10%;
+	float:left;
+	overflow:visible;
+}
+
+#anpfiff .weeks {
+	width:100%;
+}
+
+#anpfiff .weeks li {
+	width:100%;
+}
+
+#anpfiff .courses a {
+	height:243px;
+}
+
+
+/* MODULES */
+#modules {
+	width:51%;
+	margin:0 2%;
+	float:left;
+}
+
+#modules .weeks {
+	padding: 0 7% 0 0;
+	width:93%;
+}
+
+#modules .weeks li {
+	width:27.5%;
+}
+
+#modules .weeks li.twee {
+	width:17.5%;
+}
+
+#modules .courses h2 {
+	height:13px;
+	padding:11px 0 0;
+	text-align:center;
+        color:#333;
+}
+
+#modules .courses {
+	padding:0 7% 0 0;
+	width:93%;
+	overflow:auto;
+	background:#ccc url('Plaatjes/pijl.png') no-repeat right center;
+}
+
+#modules .courses li {
+	float:left;
+	width:27.5%;
+}
+
+#modules .courses li.twee {
+	width:17.5%;
+}
+
+#modules .courses a {
+	height:71px;
+}
+
+#modules .courses p {
+	height:71px;
+}
+
+/* GONOGO */
+
+#gonogo {
+        position:absolute;
+        width:3.07692307692308em;
+        height:3.07692307692308em;
+        right:35%;
+}
+
+
+#gonogo p {
+        text-align:center;
+        font-size:0.75em;
+        height:2.50256410256411em;
+        width:2.50256410256411em;
+        padding:0.8em;
+        
+
+        background-image: url('Plaatjes/halvewieberlinks.png'), url('Plaatjes/halvewieberrechts.png');
+        background-position: left center, right center;
+        background-repeat: no-repeat;
+}
+
+/* MEESTERPROEF */
+#meesterproef {
+	width:35%;
+	float:left;
+}
+
+#meesterproef .weeks {
+	width:100%;
+}
+
+#meesterproef .weeks li {
+	width:76%;
+}
+
+#meesterproef .weeks li.twee {
+	width:24%;
+}
+
+#meesterproef .courses {
+	width:100%;
+	overflow:auto;
+}
+
+#meesterproef .courses li {
+	float:left;
+	width:76%;
+}
+
+#meesterproef .courses li.twee {
+	width:24%;
+}
+
+#meesterproef .courses a {
+	height:243px;
+}
+
+#meesterproef .courses p {
+	height:243px;
+}
+
+/* X2 PROGRAMMA */
+#xx-programma {
+	width:100%;
+	clear:both;
+	padding-top:2em;
+	text-align:center;
+}
+
+#xx-programma .weeks {
+        display:none;
+}
+
+
+
+/* MIN 480 */
+@media screen and (max-width:480px ) {
+
+body {
+	-webkit-text-size-adjust:none;
+}
+
+.cmda-programma {
+        width:80%;
+}
+
+/* weeks */
+.weeks ul {
+        margin:1.5em 0 2px;
+        padding:0 0.65em;
+}
+
+.weeks li {
+        padding:0;
+}
+
+.weeks li p {
+        font-size:1.25em;
+        color:#666;        
+        margin:0 0.15em;
+        padding:0.2em 0.2em 0.6em;
+        background:#eee;
+}
+
+.weeks li:first-child p {
+	border-color:#fff;
+}
+
+
+
+.weeks li p {
+	border-color:#fff;
+}
+
+
+
+/* courses */
+.courses {
+	margin-bottom:2px;
+}
+
+.courses > ul {
+        padding:0 0.65em;
+}
+
+.courses > ul > li > a {
+	margin:0 0.15em;
+        text-align:center;
+        font-size:1.5em;
+        padding:0.5em;
+}
+
+.courses > ul > li > p {
+	margin:0 0.15em;
+        text-align:center;
+        font-size:1.5em;
+        padding:0.5em;
+}
+
+.courses .ects {
+	font-size:1em;
+}
+
+
+/* DER ANPFIFF */
+#anpfiff {
+	width:100%;
+	float:none;
+	overflow:visible;
+}
+
+#anpfiff .courses a {
+	height:auto;
+}
+
+/* MODULES */
+#modules {
+	width:100%;
+	margin:0;
+	float:none;
+}
+
+#modules .weeks {
+	padding: 0;
+	width:100%;
+}
+
+#modules .courses {
+	padding:0 0;
+	width:100%;
+	background:#ccc;
+}
+
+#modules .courses h2 {
+	padding:0.6em 0 0.3em;
+        font-size:1.5em;
+}
+
+#modules .courses > ul > li > a {
+        height:2em;
+        padding:1.75em 0.5em;
+}
+
+
+#modules .courses > ul > li > p {
+        height:2em;
+        padding:1.75em 0.5em;
+}
+
+
+/* GONOGO */
+#gonogo {
+        position:static;
+        width:auto;
+        height:auto;
+        margin:1.4em 0 1.5em;
+        padding:0.25em;
+        background:url('Plaatjes/nood.png') center;
+        text-align:center;
+}
+
+#gonogo p {
+        font-size:1.5em;
+        height:auto;
+        width:5.2em;
+        line-height:1.1em;
+        margin:0 auto;
+        padding:0;
+        background:rgba(255,255,255,0.75);
+}
+
+
+/* MEESTERPROEF */
+#meesterproef {
+	width:100%;
+	float:none;
+}
+
+#meesterproef > .weeks > ul {
+        margin-top:0;
+}
+
+#meesterproef .weeks li {
+	width:82.5%;
+}
+
+#meesterproef .weeks li.twee {
+	width:17.5%;
+}
+
+#meesterproef .courses li {
+	float:left;
+	width:82.5%;
+}
+
+#meesterproef .courses li.twee {
+	width:17.5%;
+}
+
+#meesterproef .courses a {
+	height:1em;
+        padding:2.25em 0.5em;
+}
+
+#meesterproef .courses p {
+	height:1em;
+        padding:2.25em 0.5em;
+}
+
+/* X2 PROGRAMMA */
+#xx-programma {
+	padding-top:0;
+}
+
+#xx-programma .weeks {
+	display:block;
+        width:100%;
+}
+
+#xx-programma .weeks li {
+	width:100%;
+}
+
+}
