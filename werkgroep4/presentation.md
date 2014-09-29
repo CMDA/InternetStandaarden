@@ -122,6 +122,7 @@ Neem rustig de tijd om de feedback die je hebt ontvangen te verwerken in jouw we
 # Recap
 
 - Hoe beter de feedback die je elkaar geeft, hoe beter het eindproduct
+- CSS is ontzettend cool!!11oneone
 
 
 !
