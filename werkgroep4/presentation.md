@@ -129,5 +129,6 @@ Neem rustig de tijd om de feedback die je hebt ontvangen te verwerken in jouw we
 # Huiswerk
 
 - (Uit HTML & CSS: Lees hoofdstukken 5 en 6)
+- Na college: Uit HTML & CSS: Lees hoofdstukken 7 en 8 tot p187
 - Op codecademy.com uit de HTML & CSS track: CSS: An Overview en CSS Selectors
 - Maak het HTML gedeelte van je eindopdracht af zodat je voldoet aan de volgende criteria:
