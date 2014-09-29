@@ -109,6 +109,8 @@ Een kolom's layout: [demo/one.html](demo/one.html)
 
 Drie kolom's layout: [demo/three.html](demo/three.html)
 
+Hello Cthulhu!: [demo/index.html](demo/index.html)
+
 !
 
 # Zelfwerkzaamheid
