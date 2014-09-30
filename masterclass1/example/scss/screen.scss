@@ -1,0 +1,57 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+body {
+	background: #c2c2c2;
+	color: $mijnRood;
+	font-family: $font;
+}
+
+header {
+	@include centeredBox;
+}
+
+// Nesten van elementen
+nav {
+	@include centeredBox;
+	
+	ul {
+		li {
+			display: inline;
+			a {
+				@include menuItem;
+
+				&:hover {
+					color: red;
+					background: tomato;
+				}
+			}
+		}
+	}
+}
+
+main {
+	// Rekenen met variabelen (+,-,*,/)
+	@include centeredBox($width - $sidebar);
+}
+
+.button {
+	margin: 0px; padding: 0px;
+	width: auto;
+	background: grey;
+}
+
+.submit	{
+	@extend .button;
+	background: green;
+}
+
+.cancel {
+	@extend .button;
+	background: red;
+}
+
+footer {
+	@include centeredBox;
+	@include rotate;
+}

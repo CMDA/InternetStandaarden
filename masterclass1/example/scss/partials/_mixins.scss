@@ -1,0 +1,17 @@
+// Mixin's (functies in andere talen)
+@mixin centeredBox ($this_width:780px) {
+	width: $this_width;
+	margin: 0 auto;
+}
+// Mixin's met parameters
+@mixin rotate ($deg:90deg) {
+	transform: rotate($deg);
+}
+// Kale mixin's
+@mixin menuItem {
+	display: inline-block;
+	width: 8em;
+	height: 3em;
+	line-height: 3em;
+	background: $mijnRood;
+}

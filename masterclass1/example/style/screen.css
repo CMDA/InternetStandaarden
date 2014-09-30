@@ -1,0 +1,57 @@
+body {
+  background: #c2c2c2;
+  color: #ff1100;
+  font-family: Garamond, serif;
+}
+
+header {
+  width: 780px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 780px;
+  margin: 0 auto;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  display: inline-block;
+  width: 8em;
+  height: 3em;
+  line-height: 3em;
+  background: #ff1100;
+}
+nav ul li a:hover {
+  color: red;
+  background: tomato;
+}
+
+main {
+  width: 660px;
+  margin: 0 auto;
+}
+
+.button, .submit, .cancel {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  background: grey;
+}
+
+.submit {
+  background: green;
+}
+
+.cancel {
+  background: red;
+}
+
+footer {
+  width: 780px;
+  margin: 0 auto;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
