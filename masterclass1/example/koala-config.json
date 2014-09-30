@@ -3,8 +3,8 @@
 	// The mappings of source directory and output directory
 	"mappings": [
 		{	
-			"src": "scss",
-			"dest": "style"
+			"src": "scss/",
+			"dest": "style/"
 		}
 	],
 
@@ -16,7 +16,7 @@
 	"options": {
 
 		// Output style. Can be nested (default), compact, compressed, or expanded.
-		"outputStyle": "expanded",
+		"outputStyle": "nested",
 
 		// Emit comments in the generated CSS indicating the corresponding source line.
 		"lineComments": false,
