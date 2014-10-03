@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Internetstandaarden College 4</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,600,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style/screen.css" />
+	<script src="extern.js"></script>
+</head>
+<body>
+	
+	<header>
+		<h1>Internetstandaarden College 4</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Presentatie</a></li>
+		</ul>
+	</nav>
+
+	<main>
+
+		<section>
+			<h1>cmdgeo.nl</h1>
+		</section>
+
+		<section>
+			<h1>Recap</h1>
+			<ul>
+				<li>Semantiek (3x woordwaarde)</li>
+				<li>Anatomie van HTML elementen</li>
+				<li>Nesten in de DOM tree</li>
+				<li>Validatie van HTML (syntaxis)</li>
+				<li>Veel gebruikte HTML elementen</li>
+			</ul>
+		</section>
+
+		<section>
+			<h1>Wat is <abbr title="Cascading StyleSheets">CSS</abbr>?</h1>
+			<img class="smaller" src="pics/iheartcss.png" alt="">
+			<p>CSS geeft webdesigners controle over de visuele presentatie van HTML pagina's.</p>
+		</section>
+
+		<section>
+			<h1>Hoe gaat je browser om met CSS?</h1>
+			<img src="pics/domrendering.png" alt="Het DOM rendering proces in 4 stappen.">
+		</section>
+		
+		<section>
+			<h1>Drie manieren om CSS te koppelen</h1>
+			<ul>
+				<li><strong>inline</strong> via een stijlattribuut op een element</li>
+				<li>intern, via een &lt;style> element in het &lt;head> element</li>
+				<li>extern, via een &lt;link> element in het &lt;head> element</li>
+			</ul>
+		</section>
+
+		<section>
+			<h1>Scheiding van inhoud, vormgeving (en functionaliteit)</h1>
+			<p>Wij accepteren <strong>ALLEEN</strong> externe CSS. Intern of inline betekend automatisch een onvoldoende beoordeling. Valideer ook jouw CSS code met de <a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.</p>
+		</section>
+
+		<section>
+			<h1>Waarom op die manier?</h1>
+			<img src="pics/nutshell.png" alt="Scheiding van inhoud vormgeving en functionaliteit in een notendop">
+		</section>
+
+		<section>
+			<h1>Voordelen van die manier</h1>
+			<ul>
+				<li><em>Consistentie</em>: je layout wordt in alle pagina's op dezelfde manier toegepast.</li>
+				<li><em>Indexeerbaarheid</em>: Crawlers kunnen jouw pagina beter indexeren.</li>
+				<li><em>Onderhoudbaarheid</em>: als je je code veel later terugleest snap je nog steeds wat er gebeurd.</li>
+				<li><em>Overdraagbaarheid</em>: als anderen jouw code lezen snappen ook zij wat er gebeurd.</li>
+				<li><em>Toegankelijkheid</em>: doordat je code clean is kunnen hulpprogramma's deze goed aanpassen aan de behoefte van de gebruiker.</li>
+			</ul>
+		</section>
+
+		<section>
+			<h1>Hoe werkt CSS?</h1>
+			<img id="ajaxvrouwen" src="pics/ajaxvrouwen.jpg" alt="Ajax Selectie">
+		</section>
+		
+		<section>
+			<h1>Soorten selectoren</h1>
+			<ul>
+				<li>universeel</li>
+				<li>type</li>
+				<li>class</li>
+				<li>(pseudo-class)</li>
+				<li>id</li>
+				<li>child</li>
+				<li>descendant</li>
+				<li>adjacent sibling</li>
+				<li>general sibling</li>
+			</ul>
+		</section>
+	
+<!-- 
+	universeel *
+	type h1, p, img, table, ul
+	class .alert, .foobar, .shopping-cart
+	(pseudo-class) :link, :visited, :hover, :active :first-child, :after, :before
+	id #why, #not
+	child	li>a
+	descendant li a
+	adjacent sibling h1 + p
+	general sibling h1 ~ p
+ -->
+
+ 		<section>
+ 			<h1>Kleuren</h1>
+ 			<ul>
+ 				<li>#ff0000</li>
+ 				<li>rgb(255,0,0)</li>
+ 				<li>rgba(255,0,0,1)</li>
+ 				<li>red</li>
+ 			</ul>
+ 		</section>
+
+ 		<section>
+ 			<h1>Typografie</h1>
+ 			standaard lettertypes
+			google web fonts		
+ 		</section>
+
+		<section>
+			<h1>Recap</h1>	
+		</section>
+
+ 		<section>
+ 			<h1>Studievragen</h1>
+ 			<ol>
+ 				<li>Wat is het verschil tussen inline, intern/embedded en externe CSS-code?</li>
+ 				<li>Hoe kan je jouw CSS code valideren?</li>
+ 				<li>Hoe ziet de anatomie van een CSS-regel er uit?</li>
+ 				<li>Welke verschillende soorten selectoren zijn er?</li>
+ 				<li>Wat wordt bedoeld met het woord 'Cascading' in CSS (Cascading StyleSheets)?</li>
+ 				<li>Wat wordt bedoeld met 'overerving' (inheritance) binnen CSS?</li>
+ 			</ol>
+ 		</section>
+		
+		<section>
+			<h1>Huiswerk</h1>
+			<ul>
+				<li>Uit HTML &amp; CSS: Lees hoofdstukken 7 en 8 tot p187 (ongeveer 44 pagina's)</li>
+				<li>Op codecademy.com uit de HTML &amp; CSS track: CSS: An Overview en CSS Selectors</li>
+				<li>Maak aanpassingen aan het HTML gedeelte op basis van de ontvangen feedback.</li>
+				<li>Optioneel: Ga verder met de HTML essential training op Lynda.com (via het Lynda Portal van de HvA)</li>
+			</ul>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>Copyleft 2014, all wrongs reversed</p>
+	</footer>
+
+</body>
+</html>

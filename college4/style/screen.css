@@ -1,0 +1,89 @@
+/* Universele selector */
+* {
+	margin: 0; padding: 0;
+	font-family: 'Open Sans', Arial, sans-serif; /* Generic Fallback Fonts: sans-serif, serif, monospace, fantasy */
+	font-weight: 300;
+}
+
+
+/* (element)Type selector */
+section {
+	margin: 0 auto;
+	width: 64em;
+	height: 40em;
+	background: #c2c2c2;
+	border-radius: 3em;
+}
+img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 1em;
+}
+h1 {
+	text-align: center;
+}
+
+/* Class selector */
+.smaller {
+	width: 40%;
+}
+
+/* Pseudo-class Selector */
+a:link {
+	display: block;
+	background: tomato;
+	width: 10em;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	border-radius: .5em;
+}
+a:visited {
+	background: pink;
+}
+a:hover {
+	background: goldenrod;
+}
+a:active {
+	background: red;
+}
+
+article:first-child {
+	font-weight: bold;
+}
+article:nth-child(3) {
+	font-style: italic;
+}
+
+/* id selector */
+#ajaxvrouwen {
+	border-radius: 2em;
+}
+
+/* child */
+header>h1 {
+	font-weight: 600;
+	font-size: 2em;
+	margin: -.6em;
+}
+section>h1 {
+	font-size: 2em;
+}
+
+/* Descendant (afstammeling) selector */
+section ul {
+	margin-left: 2em;
+	font-size: 1.4em;
+	list-style: square;
+}
+
+section + section {
+	margin-top:2em;
+}
+
+img ~ p {
+
+}
+
+
