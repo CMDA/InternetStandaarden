@@ -122,20 +122,32 @@ strong {
     background: rgba(100,0,100,.2);
 }
 ```
-<p>A) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: bold;background: rgba(0,100,0,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+<p>A) The unicorn was depicted in ancient seals of the <strong style="font-weight: bold;background: rgba(0,100,0,.2);">Indus Valley Civilization</strong> and was mentioned by the ancient Greeks in accounts of natural history by various writers, including Ctesias, Strabo, Pliny the Younger, and Aelian.</p>
 
-<p>B) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: normal;background: rgba(100,0,100,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+<p>B) The unicorn was depicted in ancient seals of the <strong style="font-weight: normal;background: rgba(100,0,100,.2);">Indus Valley Civilization</strong> and was mentioned by the ancient Greeks in accounts of natural history by various writers, including Ctesias, Strabo, Pliny the Younger, and Aelian.</p>
 
-<p>C) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: normal;background: rgba(100,0,0,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+<p>C) The unicorn was depicted in ancient seals of the <strong style="font-weight: normal;background: rgba(100,0,0,.2);">Indus Valley Civilization</strong> and was mentioned by the ancient Greeks in accounts of natural history by various writers, including Ctesias, Strabo, Pliny the Younger, and Aelian.</p>
 
-<p>D) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: normal; font-style:italic;background: rgba(100,100,0,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+<p>D) The unicorn was depicted in ancient seals of the <strong style="font-weight: normal; font-style:italic;background: rgba(100,100,0,.2);">Indus Valley Civilization</strong> and was mentioned by the ancient Greeks in accounts of natural history by various writers, including Ctesias, Strabo, Pliny the Younger, and Aelian.</p>
 
 !
 
 # Instant Quiz 4
 ```
-
+p {
+    padding: .2em;
+    padding-right: 2em;
+    border: 1px dashed black;
+}
 ```
+
+<p style="padding: .2em;padding-top: 3em; border: 1px solid black;">A) The Bible also describes an animal, the re'em, which some translations have erroneously rendered with the word unicorn.</p>
+
+<p style="padding: .2em;padding-left: 3em; border: 1px dotted black;">B) The Bible also describes an animal, the re'em, which some translations have erroneously rendered with the word unicorn.</p>
+
+<p style="padding: .2em;padding-bottom: 3em; border: inset;">C) The Bible also describes an animal, the re'em, which some translations have erroneously rendered with the word unicorn.</p>
+
+<p style="padding: .2em;padding-right: 3em; border: 1px dashed black;">D) The Bible also describes an animal, the re'em, which some translations have erroneously rendered with the word unicorn.</p>
 
 !
 
@@ -198,7 +210,7 @@ Bij het nadenken over de layout van een website zijn wireframes erg handig. Je k
 # Huiswerk
 
 - Uit HTML & CSS: Lees hoofdstukken 7 en 8 tot p187
-- (Na het hoorcollege: Uit HTML & CSS: Lees hoofdstukken 10, 11 en 12)
+- (Na college: Uit HTML & CSS: Lees hoofdstukken 10, 11 en 12)
 - Op codecademy.com uit de HTML & CSS track: CSS: Positioning en Build a Resume
 - Zorg dat je de wireframes, lettertypes en kleurenschema voor jouw website vastgesteld en bij je hebt, je kunt dit doen in een styletile (styletil.es)
 - Begin met het vastleggen van de typografie en kleuren van jouw site in CSS
