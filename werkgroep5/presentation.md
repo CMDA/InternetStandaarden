@@ -89,10 +89,14 @@ h1 {
 }
 ```
 Hoe komen &lt;h1> elementen er uit te zien?
-<h1 style="font-family: Garamond, serif; color: #00ff00; font-style: italic; text-align: right;">A) Dit is een h1!</h1>
-<h1 style="font-family: Helvetica, sans-serif; color: #0000ff; font-style: italic; text-align: right;">B) Dit is een h1!</h1>
-<h1 style="font-family: Garamond, serif; color: #00ff00; font-style: italic; text-align: left;">C) Dit is een h1!</h1>
-<h1 style="font-family: Helvetica, sans-serif; color: #666; font-style: italic; text-align: left;">D) Dit is een h1!</h1>
+
+<h1 style="font-family: Helvetica, sans-serif; color: #0000ff; font-style: italic; text-align: right;">A) Unicorns FTW!</h1>
+
+<h1 style="font-family: Garamond, serif; color: #00ff00; font-style: italic; text-align: left;">B) Unicorns FTW!</h1>
+
+<h1 style="font-family: Garamond, serif; color: #00ff00; font-style: italic; text-align: right;">C) Unicorns FTW!</h1>
+
+<h1 style="font-family: Helvetica, sans-serif; color: #666; font-style: italic; text-align: left;">D) Unicorns FTW!</h1>
 
 !
 
@@ -104,18 +108,27 @@ p {
     text-align: justify;
 }
 ```
+<p style="font-family: Arial, sans-serif; color: rgb(90,90,90); text-align: left;">A) The unicorn is a legendary animal that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead.</p>
 
-<p style="font-family: Menlo, monotype; color: rgb(33,33,33); text-align: justify;">A) The unicorn is a legendary animal that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead.</p>
-
-<p style="font-family: Arial, sans-serif; color: rgb(90,90,90); text-align: left;">B) The unicorn is a legendary animal that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead.</p>
+<p style="font-family: Menlo, monotype; color: rgb(33,33,33); text-align: justify;">B) The unicorn is a legendary animal that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead.</p>
 
 <p style="font-family: Garamons, serif; color: rgb(120,120,120); text-align: right;">C) The unicorn is a legendary animal that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead.</p>
 !
 
 # Instant Quiz 3
 ```
-
+strong {
+    font-weight: normal;
+    background: rgba(100,0,100,.2);
+}
 ```
+<p>A) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: bold;background: rgba(0,100,0,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+
+<p>B) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: normal;background: rgba(100,0,100,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+
+<p>C) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: normal;background: rgba(100,0,0,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
+
+<p>D) The unicorn is a legendary animal that has been described since antiquity as <strong style="font-weight: normal; font-style:italic;background: rgba(100,100,0,.2);">a beast with a large, pointed, spiraling horn</strong> projecting from its forehead.</p>
 
 !
 
@@ -185,6 +198,7 @@ Bij het nadenken over de layout van een website zijn wireframes erg handig. Je k
 # Huiswerk
 
 - Uit HTML & CSS: Lees hoofdstukken 7 en 8 tot p187
-- Op codecademy.com uit de HTML & CSS track: CSS: An Overview en CSS Selectors
+- (Na het hoorcollege: Uit HTML & CSS: Lees hoofdstukken 10, 11 en 12)
+- Op codecademy.com uit de HTML & CSS track: CSS: Positioning en Build a Resume
 - Zorg dat je de wireframes, lettertypes en kleurenschema voor jouw website vastgesteld en bij je hebt, je kunt dit doen in een styletile (styletil.es)
 - Begin met het vastleggen van de typografie en kleuren van jouw site in CSS
