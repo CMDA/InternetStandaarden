@@ -1,0 +1,22 @@
+
+img {
+	width: 20em;
+	float: left;
+}
+
+textarea {
+	font-size: 1em;
+	width: 30em;
+	height: 4em;
+	background: #ff0000;
+}
+
+p {
+	width: 20em;
+	background: silver;
+	float: right;
+}
+
+form {
+	clear: both;
+}

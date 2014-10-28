@@ -1,0 +1,21 @@
+main img {
+	width: 80%;
+}
+
+form {
+	background: transparent;
+}
+
+label {
+	display: block;
+	width: 15em;
+	float: left;
+}
+
+nav ul a {
+	background: red;
+}
+
+nav ul a.active {
+	background: green;
+}
